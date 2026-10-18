@@ -1,0 +1,89 @@
+Prefab cliff_column_2 {
+    Root = {
+        UUID = "edf9d932-b41f-43f3-a970-04cf4bff5374"
+        Name = cliff_column_2
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Node cliff_column {
+                UUID = "d1355332-32c2-4c03-bd05-25580091ba98"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = [
+                    Entity cliff_column_Primitive0 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/cliff_column_LOD0_2"
+                                Material = @"Game://Materials/cliff_column_2"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "d1242279-3663-4671-baf5-1daf9b552eb4"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-6.6600585, -20.940283, -7.883339)
+                            Max = (6.6600585, 20.940285, 7.883339)
+                        }
+                        LocalTransform = {
+                            Translation = (-0.017455578, 20.54845, -0.020958662)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        RotationConvention = 1
+        NodeTags = {
+            Values = []
+        }
+    }
+    Revision = 0
+    UUID = "037f6d09-13aa-4d05-80fa-6bbe4b980794"
+}

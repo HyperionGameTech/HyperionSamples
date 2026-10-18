@@ -1,0 +1,35 @@
+Texture rock_orm_2 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = RGBA8
+        Extent = (1024, 1024, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            4194304
+            5242880
+            5505024
+            5570560
+            5586944
+            5591040
+            5592064
+            5592320
+            5592384
+            5592400
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/rock_orm_2.TEX"
+        Size = 5592404
+    }
+    UUID = "fe1efedb-d954-4160-9883-1842207b1206"
+}

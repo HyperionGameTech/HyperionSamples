@@ -1,0 +1,35 @@
+Texture cliff_block_Roughness_3 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = R8
+        Extent = (2048, 2048, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            4194304
+            5242880
+            5505024
+            5570560
+            5586944
+            5591040
+            5592064
+            5592320
+            5592384
+            5592400
+            5592404
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/cliff_block_Roughness_3.TEX"
+        Size = 5592405
+    }
+    UUID = "3d1a572d-a8d3-4396-a066-7b94936f0a3c"
+}

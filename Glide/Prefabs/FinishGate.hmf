@@ -1,0 +1,63 @@
+Prefab FinishGate {
+    Root = {
+        UUID = "21d5a1cd-f286-4fdc-b461-abba0a056422"
+        Name = FinishGate
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Entity FinishGate1 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/FinishGate1"
+                        Material = @"Game://Materials/FinishGate"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "91dd6501-4347-4f8e-98a2-ff557babaef8"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-9.8, -9.8, -0.761)
+                    Max = (9.8, 9.8, 0.761)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+    Revision = 0
+    UUID = "1a79cca2-cd64-4477-9ba4-ff0fd94421cb"
+}

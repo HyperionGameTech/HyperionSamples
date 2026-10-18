@@ -1,0 +1,8 @@
+InstanceSetData cliff_block_2_Instances {
+    Records = {
+        Key = "Game://InstanceData/cliff_block_2_Instances.INST"
+        Size = 5136
+    }
+    NextId = 107
+    UUID = "e793da53-b20e-442d-afb7-b87ccacbd046"
+}

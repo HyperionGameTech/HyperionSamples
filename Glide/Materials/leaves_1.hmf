@@ -1,0 +1,92 @@
+Material leaves_1 {
+    BaseMaterial = null
+    Attributes = {
+        ShaderName = GeometryPass
+        ShaderProperties = {
+            Chunks = [
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            ]
+        }
+        Bucket = Opaque
+        FillMode = Fill
+        BlendFunction = {
+            SrcColor = None
+            DstColor = None
+            SrcAlpha = None
+            DstAlpha = None
+        }
+        FaceCullMode = None
+        Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST|MAF_ALPHA_DISCARD
+        StencilFunction = {
+            PassOp = Replace
+            FailOp = Keep
+            DepthFailOp = Keep
+            CompareOp = Always
+        }
+        DepthCompareOp = Less
+        StencilReference = 0
+        DepthBias = 0
+        DepthBiasSlope = 0
+    }
+    Parameters = {
+        NormalMapFlipY = false
+        RoughnessChannel = R
+        MetalnessChannel = R
+        AmbientOcclusionChannel = R
+        InverseHeight = false
+        Albedo = (1, 1, 1, 1)
+        Metalness = 0
+        Roughness = 1
+        AlphaThreshold = 0.35
+        ParallaxHeightScale = 0.02
+        Transmission = 0
+        IOR = 1.5
+        EmissiveColor = (0, 0, 0, 0)
+        EmissiveIntensity = 0
+        UserParams = (0, 0, 0, 0)
+        WindFrequency = 0.9
+        WindTrunkFlexibility = 0.02
+        WindTreeHeight = 1.2558571
+        WindFlutter = 0.2
+        FoliageNormalBlend = 0.65
+        FoliageBackfaceVolume = 1
+        UVScale = (1, 1)
+        Unlit = false
+        Foliage = true
+        TerrainColorMatch = false
+        Flags = 0
+        ColorVariation = 0
+        GroundNormalBlend = 0
+        BaseOcclusion = 0
+        BaseOcclusionHeight = 0
+    }
+    Textures = {
+        Values = [
+            @"Game://Textures/leaf_albedo_1"
+            null
+            null
+            null
+            @"Game://Textures/leaves_Roughness_1"
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+        ]
+    }
+    IsDynamic = false
+    UUID = "18fd3275-c56d-4074-9517-720db3c3a05a"
+}

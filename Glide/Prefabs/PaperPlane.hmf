@@ -1,0 +1,63 @@
+Prefab PaperPlane {
+    Root = {
+        UUID = "f1c59805-fcfb-4d5e-aaee-7fd3abe997d6"
+        Name = PaperPlane
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Entity PaperPlane {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/PaperPlane"
+                        Material = @"Game://Materials/Paper"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "d5974eaa-0881-463e-a5bb-3ffd490a7035"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-2.457, -0.94500005, -2.97)
+                    Max = (2.457, 0.94500005, 2.97)
+                }
+                LocalTransform = {
+                    Translation = (0, -0.01675, 0.26999998)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+    Revision = 0
+    UUID = "8ab79eb3-c65d-400c-9cd9-afb085973c7b"
+}

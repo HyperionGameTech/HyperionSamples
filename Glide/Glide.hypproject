@@ -1,0 +1,88 @@
+EditorProject Glide {
+    GameInstance = GlideGame {}
+
+    EditorCameraPosition = (0, 0, 0)
+    EditorCameraDirection = (0, 0, 1)
+    EditWorldName = MainWorld
+    PlatformSettings = {
+        Web = {
+            MaxTextureSize = 256
+            Worlds = ""
+        }
+        Cook = {
+            AdditionalAssets = []
+            RuntimeMaterials = [
+                MaterialAttributes {
+                    ShaderName = GeometryPass
+                    ShaderProperties = {
+                        Chunks = [
+                            0
+                            0
+                            0
+                            0
+                            0
+                            0
+                            0
+                            0
+                        ]
+                    }
+                    Bucket = Translucent
+                    FillMode = Fill
+                    BlendFunction = {
+                        SrcColor = None
+                        DstColor = None
+                        SrcAlpha = None
+                        DstAlpha = None
+                    }
+                    FaceCullMode = Back
+                    Flags = MAF_DEPTH_TEST|MAF_DISABLE_SHADOW_CASTING
+                    StencilFunction = {
+                        PassOp = Replace
+                        FailOp = Keep
+                        DepthFailOp = Keep
+                        CompareOp = Always
+                    }
+                    DepthCompareOp = Less
+                    StencilReference = 0
+                    DepthBias = 0
+                    DepthBiasSlope = 0
+                }
+                MaterialAttributes {
+                    ShaderName = GeometryPass
+                    ShaderProperties = {
+                        Chunks = [
+                            0
+                            0
+                            0
+                            0
+                            0
+                            0
+                            0
+                            0
+                        ]
+                    }
+                    Bucket = Opaque
+                    FillMode = Fill
+                    BlendFunction = {
+                        SrcColor = None
+                        DstColor = None
+                        SrcAlpha = None
+                        DstAlpha = None
+                    }
+                    FaceCullMode = Back
+                    Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST|MAF_DISABLE_SHADOW_CASTING
+                    StencilFunction = {
+                        PassOp = Replace
+                        FailOp = Keep
+                        DepthFailOp = Keep
+                        CompareOp = Always
+                    }
+                    DepthCompareOp = Less
+                    StencilReference = 0
+                    DepthBias = 0
+                    DepthBiasSlope = 0
+                }
+            ]
+        }
+    }
+}

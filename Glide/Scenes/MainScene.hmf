@@ -1,0 +1,3734 @@
+Scene MainScene {
+    UUID = "f5ac306b-03c9-47a6-bbc1-053958f18049"
+    Root = {
+        UUID = "3b961efe-cbcd-4454-bb05-0c608df08729"
+        Name = "<ROOT>"
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            DirectionalLight SunLight {
+                LightFlags = Default
+                Normal = (0, 0, 0)
+                AreaSize = (0, 0)
+                Color = (1, 0.8, 0.6, 1)
+                Intensity = 12
+                Radius = inf
+                Falloff = 1
+                SpotAngles = (0, 0)
+                Material = null
+                ShadowMapDimensions = (1024, 1024)
+                ShadowMapCascades = 4
+                BakedShadowMap = null
+                Type = Directional
+                Tags = [
+                    Light
+                ]
+                Components = []
+                Layers = []
+                UUID = "39d02755-b317-40cc-bbda-81b32854acf2"
+                NodeFlags = ExcludeFromParentBounds|ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 33, 4)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = -0
+                        Y = -0
+                        Z = -0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Node Canyon {
+                UUID = "78b8d76a-8169-4d7c-8438-a9c3dbecb094"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = [
+                    Entity CanyonWalls_00 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_00"
+                                Material = @"Game://Materials/CanyonRock_LM"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                            LightmapElementComponent {
+                                LightmapElementId = 0
+                                LightmapVolumeId = 0
+                                LightmapVolumeWeight = 0.09753191
+                                MeshLightmapUVHash = 7236116592132845157
+                            }
+                        ]
+                        Layers = []
+                        UUID = "463c4928-c896-45c4-9683-22dcb9d22d91"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-191.14749, -36.834, -122.757)
+                            Max = (191.14749, 36.834, 122.757)
+                        }
+                        LocalTransform = {
+                            Translation = (14.976494, 36.834, 61.289)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_01 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_01"
+                                Material = @"Game://Materials/CanyonRock_LM"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                            LightmapElementComponent {
+                                LightmapElementId = 65536
+                                LightmapVolumeId = 0
+                                LightmapVolumeWeight = 0.08119789
+                                MeshLightmapUVHash = 9289545355117759872
+                            }
+                        ]
+                        Layers = []
+                        UUID = "5b3aa3aa-479b-425a-a561-1ed7863cb973"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-187.844, -36.363, -126.540504)
+                            Max = (187.844, 36.363, 126.540504)
+                        }
+                        LocalTransform = {
+                            Translation = (70.746, 38.614, 121.2255)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_02 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_02"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "1db4b963-5cbc-4e10-ae41-d8122ac12515"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-186.177, -35.262997, -102.82851)
+                            Max = (186.177, 35.263, 102.82851)
+                        }
+                        LocalTransform = {
+                            Translation = (112.272, 39.435997, 209.4965)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_03 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_03"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "3d138c0f-71cc-4811-8620-7894fa64a3b6"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-183.83449, -32.8015, -86.733)
+                            Max = (183.8345, 32.8015, 86.733)
+                        }
+                        LocalTransform = {
+                            Translation = (127.00849, 38.2875, 320.491)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_04 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_04"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "a34a0ae0-0f66-4227-85ba-8655b10ed9e1"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-179.867, -29.625004, -93.953)
+                            Max = (179.86699, 29.625, 93.953)
+                        }
+                        LocalTransform = {
+                            Translation = (149.174, 35.257004, 429.034)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_05 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_05"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "0813a24b-0ff9-4b6c-a8f3-a4339fc27901"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-182.217, -27.29, -102.48752)
+                            Max = (182.217, 27.289999, 102.48749)
+                        }
+                        LocalTransform = {
+                            Translation = (185.998, 31.733, 514.7125)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_06 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_06"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "27608a4d-22a6-4eb2-a69f-1ea24608448f"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-180.54651, -26.756, -77.172)
+                            Max = (180.5465, 26.756, 77.172)
+                        }
+                        LocalTransform = {
+                            Translation = (211.9275, 29.362, 583.664)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_07 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_07"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "8f34c96e-180d-4f2d-81af-7b838ab6a938"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-175.10352, -29.698, -92.31848)
+                            Max = (175.1035, 29.698, 92.31854)
+                        }
+                        LocalTransform = {
+                            Translation = (217.0355, 30.086, 750.36646)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_08 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_08"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "84109ce4-c283-4ce8-99e5-fa2c05fc5d85"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-164.46802, -33.042, -147.14496)
+                            Max = (164.468, 33.042, 147.14502)
+                        }
+                        LocalTransform = {
+                            Translation = (180.57701, 31.154999, 814.26196)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_09 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_09"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "4f3d8ed3-52e6-4823-a47f-511dc0c312f7"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-154.35199, -34.803, -156.38501)
+                            Max = (154.352, 34.803, 156.38501)
+                        }
+                        LocalTransform = {
+                            Translation = (84.782, 30.917, 853.536)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_10 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_10"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "548bdcb8-58b7-45ca-a546-479f38ff4094"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-168.40851, -35.789, -120.26697)
+                            Max = (168.40851, 35.789, 120.26703)
+                        }
+                        LocalTransform = {
+                            Translation = (6.0804977, 30.472, 900.626)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_11 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_11"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "47abd373-bf31-4258-bbad-fbdcc9a74dd0"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-170.1155, -35.747, -96.58508)
+                            Max = (170.1155, 35.747, 96.58496)
+                        }
+                        LocalTransform = {
+                            Translation = (-1.2845001, 29.775002, 1037.779)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_12 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_12"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "c89ac80b-0278-486f-8ab8-7f652c58061e"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-177.12451, -33.6235, -120.505005)
+                            Max = (177.12451, 33.6235, 120.505005)
+                        }
+                        LocalTransform = {
+                            Translation = (24.9775, 27.6235, 1144.71)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_13 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_13"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "d8db7c2f-65ef-4ca3-b607-395e64ad076c"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-180.99649, -30.471498, -133.53748)
+                            Max = (180.9965, 30.4715, 133.5376)
+                        }
+                        LocalTransform = {
+                            Translation = (89.1375, 24.717499, 1203.0864)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_14 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_14"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "6dfe557e-64ab-41b5-83f3-7e9dcd6a8e6c"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-186.2715, -27.838, -110.317505)
+                            Max = (186.2715, 27.838, 110.317505)
+                        }
+                        LocalTransform = {
+                            Translation = (131.1035, 23.143, 1278.5485)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonWalls_15 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonWalls_15"
+                                Material = @"Game://Materials/CanyonRock"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "0b428ef7-6dfc-4d56-a829-90b939041064"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-187.176, -26.7575, -85.34155)
+                            Max = (187.17601, 26.7575, 85.34143)
+                        }
+                        LocalTransform = {
+                            Translation = (156.662, 23.807499, 1387.2585)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_00 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_00"
+                                Material = @"Game://Materials/CanyonSand_LM"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                            LightmapElementComponent {
+                                LightmapElementId = 131072
+                                LightmapVolumeId = 0
+                                LightmapVolumeWeight = 0.6105325
+                                MeshLightmapUVHash = 7079211382041629554
+                            }
+                        ]
+                        Layers = []
+                        UUID = "3369b55f-1558-4d43-8be5-e98b517963c2"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-50.279, -6.667, -57.707)
+                            Max = (50.279, 6.667, 57.706997)
+                        }
+                        LocalTransform = {
+                            Translation = (20.132002, 5.995, 47.243)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_01 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_01"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "e330851b-b536-4802-b732-8fbdbdefd553"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-47.709, -6.5754995, -56.43451)
+                            Max = (47.709, 6.5755005, 56.434494)
+                        }
+                        LocalTransform = {
+                            Translation = (65.621, 8.1015, 130.62851)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_02 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_02"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "65a7565e-23cd-43d3-9604-0e323b5ef807"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-38.547997, -6.122, -54.798004)
+                            Max = (38.547997, 6.1219997, 54.798004)
+                        }
+                        LocalTransform = {
+                            Translation = (107.687996, 9.505, 223.108)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_03 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_03"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "c0330e56-e65f-4a86-85cc-3ce43c291615"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-31.935509, -6.14, -54.13748)
+                            Max = (31.935501, 6.1399994, 54.137512)
+                        }
+                        LocalTransform = {
+                            Translation = (130.7035, 10.924, 321.54248)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_04 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_04"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "b9f1afe1-f237-4661-a37b-06c5906515ef"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-36.257004, -6.2694993, -54.809998)
+                            Max = (36.257004, 6.2695, 54.810028)
+                        }
+                        LocalTransform = {
+                            Translation = (154.899, 11.096499, 421.19598)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_05 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_05"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "c0e3ca12-294d-4029-84f9-d1a77e0999bc"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-45.431, -6.4700003, -56.35504)
+                            Max = (45.431, 6.4700003, 56.35498)
+                        }
+                        LocalTransform = {
+                            Translation = (187.176, 10.317, 515.53503)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_06 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_06"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "6b030340-7235-4fdc-9d7b-a4509e0dae72"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-40.47151, -6.593, -54.31549)
+                            Max = (40.471497, 6.5929995, 54.31549)
+                        }
+                        LocalTransform = {
+                            Translation = (209.71051, 8.446, 605.3775)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_07 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_07"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "d434942a-290d-4321-8172-29724db9f614"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-42.7735, -6.9435, -56.17096)
+                            Max = (42.7735, 6.9435, 56.17102)
+                        }
+                        LocalTransform = {
+                            Translation = (207.3735, 6.6345, 715.36)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_08 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_08"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "e3cfbaeb-1fe6-4a40-a394-f507784230be"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-56.798004, -6.8644996, -56.458496)
+                            Max = (56.798004, 6.8645, 56.458496)
+                        }
+                        LocalTransform = {
+                            Translation = (165.401, 4.2334995, 794.6275)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_09 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_09"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "edd84edc-a397-476e-b63d-c876461b4c0c"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-55.246494, -6.5405, -52.600952)
+                            Max = (55.2465, 6.5405, 52.601013)
+                        }
+                        LocalTransform = {
+                            Translation = (90.780495, 1.9315, 859.345)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_10 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_10"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "5ecf7171-7e0f-453d-83fc-f014ba06be32"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-45.254997, -6.4245, -53.688477)
+                            Max = (45.254997, 6.4245, 53.688538)
+                        }
+                        LocalTransform = {
+                            Translation = (25.071, 0.4454999, 932.90845)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_11 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_11"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "4437fce5-ac95-45b3-839f-a9eda9ddc69e"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-27.8275, -6.4945, -55.616516)
+                            Max = (27.8275, 6.4945, 55.616455)
+                        }
+                        LocalTransform = {
+                            Translation = (2.1025, -0.22749996, 1030.8165)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_12 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_12"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "8d0c8bf8-b89a-46ba-ada9-3be8bedfe960"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-45.8415, -6.1635, -55.49243)
+                            Max = (45.8415, 6.1635, 55.492554)
+                        }
+                        LocalTransform = {
+                            Translation = (33.3545, -0.5625, 1127.3684)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_13 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_13"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "198584b6-f47e-4e52-aff2-423f351b519f"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-52.482998, -6.3065, -57.54895)
+                            Max = (52.482994, 6.3065, 57.549072)
+                        }
+                        LocalTransform = {
+                            Translation = (84.35, -0.15049982, 1208.907)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_14 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_14"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "62aab38d-fd1e-4c28-8929-5f7cbd647f45"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-46.334, -6.6540003, -57.82556)
+                            Max = (46.334, 6.6540003, 57.82544)
+                        }
+                        LocalTransform = {
+                            Translation = (126.718, 1.3529999, 1295.0605)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Entity CanyonFloor_15 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/CanyonFloor_15"
+                                Material = @"Game://Materials/CanyonSand"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "128239cd-8803-445a-8705-669a37a1fb38"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-41.027992, -6.799, -55.36255)
+                            Max = (41.028, 6.7990003, 55.362427)
+                        }
+                        LocalTransform = {
+                            Translation = (154.471, 3.15, 1393.3506)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                RotationConvention = 1
+                NodeTags = {
+                    Values = [
+                        NodeTag PrefabSource {
+                            Data = "8ea16e29-b983-4c22-9c60-095292884d8e"
+                        }
+                    ]
+                }
+            }
+            Node Plane {
+                UUID = "9e34f9a6-cb95-4872-a158-a8ad6756bc19"
+                NodeFlags = MobilityDynamic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (5.2880597, 24.345963, 14)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = -0
+                        Y = 0.25881907
+                        Z = -0
+                        W = 0.96592593
+                    }
+                }
+                Children = [
+                    Entity PaperPlane {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/PaperPlane"
+                                Material = @"Game://Materials/Paper"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "71a2b39a-de23-47f5-b098-ebf95e24595b"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (-2.457, -0.94500005, -2.97)
+                            Max = (2.457, 0.94500005, 2.97)
+                        }
+                        LocalTransform = {
+                            Translation = (0, -0.01675, 0.26999998)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                RotationConvention = 1
+                NodeTags = {
+                    Values = [
+                        NodeTag PrefabSource {
+                            Data = "8ab79eb3-c65d-400c-9cd9-afb085973c7b"
+                        }
+                    ]
+                }
+            }
+            Node Rings {
+                UUID = "95db5927-1d34-40f8-b556-44a4bf3bec90"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = [
+                    Node Ring_00 {
+                        UUID = "0290f785-00d7-4442-be99-c4e2324c0763"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (43.03015, 31.165352, 78.65361)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.0041198535
+                                Y = 0.089406356
+                                Z = -0.00036982534
+                                W = 0.99598676
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "9c70b742-c6bc-4e21-bf1f-e4dd597e4ddf"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 1.9073486e-06, -1.9073486e-06)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0
+                                        Y = 0.25881907
+                                        Z = -0
+                                        W = 0.96592593
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_01 {
+                        UUID = "bc69bf38-11f8-4e79-8bde-81827a8c636e"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (72, 26, 134)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.034305
+                                Y = 0.13459723
+                                Z = -0.004662607
+                                W = 0.99029535
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "cce5c41f-ab89-4bf8-90d2-aae8cc45449d"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_02 {
+                        UUID = "1bb5314b-20e7-42ed-bc98-2adc0ab0b4ca"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (97, 26, 199)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.041548874
+                                Y = 0.13097338
+                                Z = 0.005493991
+                                W = 0.99049973
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "032fd0c5-88e6-4415-8af4-74244198aa9a"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (-1.5258789e-05, 0, -7.6293945e-06)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0
+                                        Y = -0
+                                        Z = -0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_03 {
+                        UUID = "b68c57be-02a4-4a4e-834a-1150dfdb3634"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (118, 32, 269)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.001227891
+                                Y = 0.1346952
+                                Z = -0.0001669122
+                                W = 0.9908864
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "8eac448b-ccca-4cd2-8088-59362c78c79b"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_04 {
+                        UUID = "5bbff626-654b-401f-919d-05462e589eed"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (134, 27, 330)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.029561445
+                                Y = 0.13215432
+                                Z = -0.003943026
+                                W = 0.9907804
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "3f363878-7846-4dd8-8b71-23df09726e9d"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_05 {
+                        UUID = "e5bcc402-02f7-4521-b1e0-12aae5c95f35"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (143, 31, 387)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.027467063
+                                Y = -0.05972783
+                                Z = -0.0016441068
+                                W = 0.9978354
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "9ae9de5a-9f22-4d2f-9d36-43f275151251"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0
+                                        Y = 0.1305262
+                                        Z = -0
+                                        W = 0.9914449
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_06 {
+                        UUID = "f0142cdc-872f-4d90-8c7b-84a1b86b4a62"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (155.00378, 27.845697, 438.29672)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.037068356
+                                Y = 0.12407255
+                                Z = 0.014038754
+                                W = 0.9914812
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "f0e246aa-0084-4ac0-be6c-f2f2284f8398"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_07 {
+                        UUID = "b9e58b35-e045-46e5-b8dd-5dc23d21f5e7"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (172.04329, 19.456324, 489.5016)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.014475926
+                                Y = 0.082192086
+                                Z = -0.005665456
+                                W = 0.996495
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "2763c4f2-daa1-4710-8124-52b2ae870451"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_08 {
+                        UUID = "3185e5d0-7846-4edc-a550-cda1b0bcce4b"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (191.00757, 27.482235, 550.7328)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.027229972
+                                Y = 0.09083542
+                                Z = -0.00942562
+                                W = 0.9954488
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "986aca0c-fd02-4a4d-8deb-e918de6bbd3c"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_09 {
+                        UUID = "985cc9b4-fc22-4c83-a0f0-382fbc8eadce"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (209.0377, 25.68945, 617.2862)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.052562017
+                                Y = -0.15642327
+                                Z = 0.0004556892
+                                W = 0.98629045
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "2ee3324e-58a4-447f-a4f7-c2207583c3d4"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_10 {
+                        UUID = "6ce40004-6e88-4f65-a09c-74fd0957b6fb"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (207.21051, 17.15114, 685.4293)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.01193442
+                                Y = 0.014178481
+                                Z = 0.00016924099
+                                W = 0.99982834
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "f15355ca-754a-454d-9cff-5b7a71a4d606"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_11 {
+                        UUID = "1c728f66-1b25-494c-a4fd-4aabbf34436c"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (195.90427, 24.344244, 748.31494)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.00029484837
+                                Y = -0.26411203
+                                Z = 0.0001874411
+                                W = 0.9644917
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "5d76d1e2-e0e2-429a-827f-8ba6b7be8ae8"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_12 {
+                        UUID = "bb3dc9fc-8c59-465f-9c4f-ab6fabaa48da"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (159.88501, 22.847902, 794.73)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.027666636
+                                Y = -0.3437573
+                                Z = -0.0579481
+                                W = 0.93686044
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "d59d8c12-66ff-4ad9-b674-8903a606d748"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, -3.8146973e-06, 2.2888184e-05)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0
+                                        Y = -0
+                                        Z = -0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_13 {
+                        UUID = "2add5c65-46b9-4390-bef5-3f41fc609af7"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (123.264565, 16.058233, 827.9708)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.009357975
+                                Y = 0.47453701
+                                Z = -0.0050452733
+                                W = 0.8801715
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "02ad833b-afcc-4887-a1e8-bc30ce775aee"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.0013875979
+                                        Y = 0.6086494
+                                        Z = -0.010539841
+                                        W = 0.793368
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_14 {
+                        UUID = "c180c6d6-04a0-4b65-961d-d0410820bc62"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (79.9304, 14.909527, 861.9513)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.020595575
+                                Y = 0.36977974
+                                Z = -0.008199154
+                                W = 0.92885506
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "2d5a2ce8-61d0-4f2b-bc79-f1d4e58896b2"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (-0.6629524, 0.9985876, 2.2569427)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.0035219907
+                                        Y = 0.7065139
+                                        Z = -0.026752127
+                                        W = 0.70718503
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_15 {
+                        UUID = "6d222b49-97c5-43c7-b298-12e8f3002725"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (42.81482, 10.8647375, 912.9986)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.012915983
+                                Y = 0.26562515
+                                Z = 0.003558993
+                                W = 0.9639833
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "4e17b948-bfb9-4ab9-ba5a-978e7f5cfc17"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (-1.3786277, 1.0813054, -3.183786)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.0030285758
+                                        Y = 0.7930451
+                                        Z = 0.023004308
+                                        W = 0.60872054
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_16 {
+                        UUID = "7be02e12-6c88-40d1-af97-f4f841e9f49e"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (17, 18.389645, 973.4709)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.038312975
+                                Y = 0.2674476
+                                Z = 0.00035048462
+                                W = 0.9628104
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "0655c5a9-2936-4beb-8ab3-f4192f75c5a2"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (-7.1243844, 0.3427925, -5.6991777)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.00018284844
+                                        Y = -0.38042572
+                                        Z = -0.039238606
+                                        W = 0.92397875
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_17 {
+                        UUID = "f65db3b8-6150-4f49-b0eb-4956310cac80"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (6.4399457, 20.969873, 1039.4509)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.039023045
+                                Y = -0.011205871
+                                Z = 0.00043764806
+                                W = 0.9991755
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "4d8c3d65-1813-4e60-b1a1-a49b1091cb6a"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (-6.429491, -2.0066853, 0.5381074)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0
+                                        Y = -0
+                                        Z = -0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_18 {
+                        UUID = "ff3fe539-48b3-4d59-9914-ab49747061aa"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (16.391796, 8.031538, 1105.8436)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.0032979343
+                                Y = -0.20008358
+                                Z = 0.00067348505
+                                W = 0.97977304
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "b55dd6d7-8790-4561-bb3d-760c2e2b3a67"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (3.8121853, 14.960339, -0.25818872)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0.00022742338
+                                        Y = 0.38267764
+                                        Z = -0.0017274533
+                                        W = 0.9238803
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_19 {
+                        UUID = "5a3ac565-e01e-48f1-bd57-ee551d0e7dc4"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (52, 20.15789, 1150.407)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.03850687
+                                Y = -0.28938478
+                                Z = -0.0116516985
+                                W = 0.95636714
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "d230816e-741c-4079-a454-2d3800bbce25"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (-1.3844682, -0.02931023, 2.845276)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -5.5879354e-09
+                                        Y = 0.5000001
+                                        Z = 7.450581e-09
+                                        W = 0.8660253
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_20 {
+                        UUID = "7a9d05fd-cd50-4719-98fd-9e08e89ad288"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (79, 16.718027, 1195.472)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0.04193236
+                                Y = -0.18904741
+                                Z = 0.008080417
+                                W = 0.981039
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "c44c6345-87f2-4cfe-88d7-aec00ea90e5e"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (-1.90094, 1.0615902, 3.5917683)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = -0
+                                        Y = 0.3826834
+                                        Z = -3.7252899e-09
+                                        W = 0.9238795
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_21 {
+                        UUID = "6cb7ce66-5298-4bb8-9c25-55803fb39294"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (97, 10, 1248.8806)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.03933639
+                                Y = -0.18754855
+                                Z = -0.007517009
+                                W = 0.9814386
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "c8cab8e0-b3e8-47c6-b4eb-2ed02f9d0e28"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (6.181548, 7.9101896, -3.006393)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0.002703692
+                                        Y = 0.38186032
+                                        Z = 0.020536628
+                                        W = 0.92398775
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                    Node Ring_22 {
+                        UUID = "62a924f1-6347-409b-90a0-b01735792da5"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (122, 26.075932, 1303.8114)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0.03574557
+                                Y = -0.20297462
+                                Z = -0.0074148374
+                                W = 0.97850335
+                            }
+                        }
+                        Children = [
+                            Entity Ring {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/Ring"
+                                        Material = @"Game://Materials/RingGold"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "340d2d2a-409c-4ae5-9ba8-d4d20cb31862"
+                                NodeFlags = MobilityDynamic
+                                LocalBounds = {
+                                    Min = (-4.35, -4.35, -0.333)
+                                    Max = (4.35, 4.35, 0.333)
+                                }
+                                LocalTransform = {
+                                    Translation = (3.3685455, -3.1269379, -2.0976486)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0.03617006
+                                        Y = 0.9215906
+                                        Z = 0.06264836
+                                        W = -0.38136235
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = [
+                                NodeTag PrefabSource {
+                                    Data = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+                                }
+                            ]
+                        }
+                    }
+                ]
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Node FinishGate {
+                UUID = "2778db19-9907-4dfe-8eab-39aca545a3bd"
+                NodeFlags = MobilityDynamic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (149, 26, 1387)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0.16870722
+                        Z = 0
+                        W = 0.9856661
+                    }
+                }
+                Children = [
+                    Entity FinishGate1 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/FinishGate1"
+                                Material = @"Game://Materials/FinishGate"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "67ad1dbc-5dd1-4123-9240-d8631b3da74d"
+                        NodeFlags = MobilityDynamic
+                        LocalBounds = {
+                            Min = (-9.8, -9.8, -0.761)
+                            Max = (9.8, 9.8, 0.761)
+                        }
+                        LocalTransform = {
+                            Translation = (0, 0, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                RotationConvention = 1
+                NodeTags = {
+                    Values = [
+                        NodeTag PrefabSource {
+                            Data = "1a79cca2-cd64-4477-9ba4-ff0fd94421cb"
+                        }
+                    ]
+                }
+            }
+            InstanceGroup sandstone_boulder_Instances {
+                Prefab = @"Game://Prefabs/sandstone_boulder"
+                InstanceData = @"Game://InstanceData/sandstone_boulder_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "5829cd0e-f846-4044-accd-7f1f4913e4f7"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-13.634045, -8.599276, -0.26142764)
+                    Max = (239.22957, 9.542974, 1437.6641)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup sandstone_boulder_1_Instances {
+                Prefab = @"Game://Prefabs/sandstone_boulder_1"
+                InstanceData = @"Game://InstanceData/sandstone_boulder_1_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "35ef1d27-2ce0-4630-98d2-e4a9eafcf2d6"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-12.847386, -8.020514, 6.9084177)
+                    Max = (237.4105, 9.563864, 1430.4729)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup sandstone_boulder_2_Instances {
+                Prefab = @"Game://Prefabs/sandstone_boulder_2"
+                InstanceData = @"Game://InstanceData/sandstone_boulder_2_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "0af359c0-f37e-46d1-a69c-bc96b619052a"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-14.581037, -8.587877, 1.9082229)
+                    Max = (238.42679, 9.523753, 1433.377)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup sandstone_boulder_3_Instances {
+                Prefab = @"Game://Prefabs/sandstone_boulder_3"
+                InstanceData = @"Game://InstanceData/sandstone_boulder_3_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "bcab91d8-778a-4152-a706-44a7b50636ce"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-17.319904, -7.697448, 0.13014245)
+                    Max = (238.48993, 10.453627, 1433.3868)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup sandstone_block_Instances {
+                Prefab = @"Game://Prefabs/sandstone_block"
+                InstanceData = @"Game://InstanceData/sandstone_block_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "2f75b1dc-81ba-40eb-8eca-826778860b28"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-29.688824, -9.729746, -13.186461)
+                    Max = (251.47066, 70.830765, 1425.3654)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup sandstone_block_1_Instances {
+                Prefab = @"Game://Prefabs/sandstone_block_1"
+                InstanceData = @"Game://InstanceData/sandstone_block_1_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "dc04f0c1-2210-4136-a9aa-53e58cff0060"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-58.779343, -8.209711, 8.198374)
+                    Max = (248.26476, 73.97206, 1437.358)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup sandstone_block_2_Instances {
+                Prefab = @"Game://Prefabs/sandstone_block_2"
+                InstanceData = @"Game://InstanceData/sandstone_block_2_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "7e102e6f-07f4-4fd7-a6ba-bfdc40f86247"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-53.62993, -10.259718, -7.469558)
+                    Max = (274.68372, 74.43561, 1440.922)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup sandstone_slab_Instances {
+                Prefab = @"Game://Prefabs/sandstone_slab"
+                InstanceData = @"Game://InstanceData/sandstone_slab_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "7b7aab40-ab80-41ff-9eab-917dfaf2ff0c"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-48.811386, -5.5635595, -7.8419394)
+                    Max = (273.12485, 75.907425, 1386.1075)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup sandstone_slab_1_Instances {
+                Prefab = @"Game://Prefabs/sandstone_slab_1"
+                InstanceData = @"Game://InstanceData/sandstone_slab_1_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "4bb17087-5fb2-4228-bed6-8dcd32c7605e"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-30.79096, -5.952137, 11.519814)
+                    Max = (277.86353, 74.59285, 1402.3369)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup sandstone_slab_2_Instances {
+                Prefab = @"Game://Prefabs/sandstone_slab_2"
+                InstanceData = @"Game://InstanceData/sandstone_slab_2_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "fd9f050e-7227-4f6b-aea5-593f4699e0ff"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-36.913403, -5.5289884, 51.890488)
+                    Max = (276.38007, 75.892624, 1423.349)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_block_Instances {
+                Prefab = @"Game://Prefabs/cliff_block"
+                InstanceData = @"Game://InstanceData/cliff_block_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "60572751-5870-4fab-8a71-000b6c74ad0f"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-44.142204, 5.044592, -19.738499)
+                    Max = (264.39282, 49.668476, 1449.7084)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_block_1_Instances {
+                Prefab = @"Game://Prefabs/cliff_block_1"
+                InstanceData = @"Game://InstanceData/cliff_block_1_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "cae79f30-a7b4-49b5-8d7c-fa724b305faa"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-37.13201, -6.8986497, -22.741539)
+                    Max = (259.1194, 31.002907, 1461.1545)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_block_2_Instances {
+                Prefab = @"Game://Prefabs/cliff_block_2"
+                InstanceData = @"Game://InstanceData/cliff_block_2_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "ffef8c29-16c1-4990-acd7-85d53013f0a0"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-44.34155, -2.9552956, -10.777663)
+                    Max = (265.83267, 31.097923, 1123.6384)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_block_3_Instances {
+                Prefab = @"Game://Prefabs/cliff_block_3"
+                InstanceData = @"Game://InstanceData/cliff_block_3_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "a65a5f0a-966e-43bf-94ac-d550a70458f3"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-47.38245, 4.9613695, 1.760623)
+                    Max = (264.7993, 49.174423, 1460.4491)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_block_4_Instances {
+                Prefab = @"Game://Prefabs/cliff_block_4"
+                InstanceData = @"Game://InstanceData/cliff_block_4_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "4073b1b5-923d-4095-a20d-454d22c095e5"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-60.3114, 23.839678, -34.087906)
+                    Max = (269.24515, 69.679085, 1460.4106)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_block_5_Instances {
+                Prefab = @"Game://Prefabs/cliff_block_5"
+                InstanceData = @"Game://InstanceData/cliff_block_5_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "da68a468-53a0-47c9-9c29-9b4b2673c7a6"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-48.614697, 23.963564, -27.640703)
+                    Max = (263.48904, 65.27899, 1461.6993)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_column_Instances {
+                Prefab = @"Game://Prefabs/cliff_column"
+                InstanceData = @"Game://InstanceData/cliff_column_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "9186d5eb-338d-4f1f-9045-40b561ed8b9b"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-47.382935, 24.878738, 6.072172)
+                    Max = (165.10733, 68.90327, 1101.0023)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_column_1_Instances {
+                Prefab = @"Game://Prefabs/cliff_column_1"
+                InstanceData = @"Game://InstanceData/cliff_column_1_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "ea84192b-1fce-4b2e-ab30-775ba0606a4f"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-37.676643, -6.7574997, 0.12215233)
+                    Max = (243.32573, 44.1113, 1451.9205)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_column_2_Instances {
+                Prefab = @"Game://Prefabs/cliff_column_2"
+                InstanceData = @"Game://InstanceData/cliff_column_2_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "00e7a32c-aea1-4d62-b2cf-602d0943cf0b"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-36.101128, 24.838825, 919.57837)
+                    Max = (69.340805, 61.132256, 1082.2383)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_column_3_Instances {
+                Prefab = @"Game://Prefabs/cliff_column_3"
+                InstanceData = @"Game://InstanceData/cliff_column_3_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "b0c1ba06-248d-4207-97e8-1b395f81cdb1"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-47.10047, 5.188448, -22.39909)
+                    Max = (257.57797, 61.050453, 1428.1647)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_ledge_Instances {
+                Prefab = @"Game://Prefabs/cliff_ledge"
+                InstanceData = @"Game://InstanceData/cliff_ledge_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "323b5b19-971e-44fa-aa4a-99ebc627b250"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-48.639065, 37.305138, 38.58702)
+                    Max = (265.34903, 71.73883, 1458.8927)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_ledge_1_Instances {
+                Prefab = @"Game://Prefabs/cliff_ledge_1"
+                InstanceData = @"Game://InstanceData/cliff_ledge_1_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "18927b1e-3732-4bd4-b20a-e18b271fbadd"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (24.890858, 21.807428, 384.9403)
+                    Max = (179.66032, 51.199913, 1203.2815)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup cliff_ledge_2_Instances {
+                Prefab = @"Game://Prefabs/cliff_ledge_2"
+                InstanceData = @"Game://InstanceData/cliff_ledge_2_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "6892d6a4-aa9b-4e07-99a8-6c240a2cb5e8"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-64.84444, 38.34689, -35.400406)
+                    Max = (271.3792, 71.825134, 1431.2242)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup dry_grass_Instances {
+                Prefab = @"Game://Prefabs/dry_grass"
+                InstanceData = @"Game://InstanceData/dry_grass_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "341129cf-4a31-4b8e-864e-4d051327f86f"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-4.7394843, -6.329054, 4.1960163)
+                    Max = (236.51532, 11.23803, 1428.5763)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup dry_grass_1_Instances {
+                Prefab = @"Game://Prefabs/dry_grass_1"
+                InstanceData = @"Game://InstanceData/dry_grass_1_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "65a56e7a-a341-444d-bf28-2e3fb8ad1bfd"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-13.298094, -6.5273542, 4.0059614)
+                    Max = (234.24669, 10.878663, 1436.7969)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup dry_grass_2_Instances {
+                Prefab = @"Game://Prefabs/dry_grass_2"
+                InstanceData = @"Game://InstanceData/dry_grass_2_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "d88acb09-b490-444d-b748-e376a326e3b4"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-14.9228115, -6.5712075, 1.4926183)
+                    Max = (234.27808, 10.626002, 1435.8865)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup Juniper_Instances {
+                Prefab = @"Game://Prefabs/Juniper"
+                InstanceData = @"Game://InstanceData/Juniper_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "4c0e33ac-7632-4833-9a73-1738701ec5bf"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-19.638634, -6.6181335, 28.467335)
+                    Max = (242.25761, 70.9828, 1433.5573)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup Juniper_1_Instances {
+                Prefab = @"Game://Prefabs/Juniper_1"
+                InstanceData = @"Game://InstanceData/Juniper_1_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "bdb1a419-39bd-4cc5-ace6-452d9023ed02"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-9.658976, -6.18075, 2.1407528)
+                    Max = (250.25085, 62.557957, 1441.2883)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+            InstanceGroup Juniper_2_Instances {
+                Prefab = @"Game://Prefabs/Juniper_2"
+                InstanceData = @"Game://InstanceData/Juniper_2_Instances"
+                ClusterSize = 64
+                Tags = []
+                Components = []
+                Layers = []
+                UUID = "46a40044-c01c-415b-bfc1-fdcb0119030c"
+                NodeFlags = ExcludeFromOctree|MobilityStatic
+                LocalBounds = {
+                    Min = (-34.663277, -7.2147737, -9.4484825)
+                    Max = (251.04207, 73.03365, 1424.1664)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        RotationConvention = 1
+        NodeTags = {
+            Values = []
+        }
+    }
+    StreamingCentroid = (0, 0)
+    SceneFlags = FOREGROUND|HAS_OCTREE
+}

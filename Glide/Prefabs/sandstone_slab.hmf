@@ -1,0 +1,89 @@
+Prefab sandstone_slab {
+    Root = {
+        UUID = "5374f7bf-a525-4e1e-b182-74abb5e591e3"
+        Name = sandstone_slab
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Node sandstone_slab {
+                UUID = "a2fbeceb-d1c8-45a7-9e09-89c5e8a84822"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = [
+                    Entity sandstone_slab_Primitive0 {
+                        Tags = []
+                        Components = [
+                            MeshComponent {
+                                Mesh = @"Game://Meshes/sandstone_slab_LOD0"
+                                Material = @"Game://Materials/sandstone_slab"
+                                Skeleton = null
+                                EnableAutoInstancing = false
+                                InstanceData = null
+                                ForcedLod = 0
+                                LodBias = 0
+                            }
+                        ]
+                        Layers = []
+                        UUID = "12607747-203a-4723-ab93-0763c4e743e2"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (-2.0253954, -1.2028626, -1.7734313)
+                            Max = (2.0253954, 1.2028627, 1.7734313)
+                        }
+                        LocalTransform = {
+                            Translation = (-0.047170043, 1.1913877, -0.042435408)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = -0
+                                Y = -0
+                                Z = -0
+                                W = 1
+                            }
+                        }
+                        Children = []
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        RotationConvention = 1
+        NodeTags = {
+            Values = []
+        }
+    }
+    Revision = 0
+    UUID = "808bf1cf-cf82-40d6-ad52-651d52bb4624"
+}

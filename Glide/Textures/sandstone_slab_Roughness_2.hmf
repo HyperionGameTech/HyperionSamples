@@ -1,0 +1,35 @@
+Texture sandstone_slab_Roughness_2 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = R8
+        Extent = (1024, 1024, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            1048576
+            1310720
+            1376256
+            1392640
+            1396736
+            1397760
+            1398016
+            1398080
+            1398096
+            1398100
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/sandstone_slab_Roughness_2.TEX"
+        Size = 1398101
+    }
+    UUID = "3f96004c-17bc-48bc-ae2a-4986cb4c5afa"
+}

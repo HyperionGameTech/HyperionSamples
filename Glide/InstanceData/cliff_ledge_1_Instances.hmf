@@ -1,0 +1,8 @@
+InstanceSetData cliff_ledge_1_Instances {
+    Records = {
+        Key = "Game://InstanceData/cliff_ledge_1_Instances.INST"
+        Size = 1104
+    }
+    NextId = 23
+    UUID = "18cbb9c4-2eb1-484a-ba60-87dcdb40d817"
+}

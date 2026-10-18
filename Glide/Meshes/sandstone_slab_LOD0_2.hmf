@@ -1,0 +1,109 @@
+Mesh sandstone_slab_LOD0_2 {
+    AABB = {
+        Min = (-1.9112952, -1.0924946, -2.3777573)
+        Max = (1.9112952, 1.0924946, 2.3777573)
+    }
+    LodGeneration = {
+        NumLods = 4
+        TriangleRatios = [
+            1
+            0.5
+            0.25
+            0.125
+        ]
+        MaxRelativeError = 1
+        NormalWeight = 0.5
+        UV0Weight = 1
+        UV1Weight = 0.5
+        WindWeight = 1
+        LockBorder = false
+        Prune = false
+        MaxScreenErrorPixels = 1
+        SourceDataHash = 0
+    }
+    LightmapUVDataHash = 0
+    Lod0DataRevision = 1
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 31
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 1124
+                NumIndices = 6000
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 485
+                NumIndices = 2400
+                GeometricError = 0.020002592
+                ScreenSize = 0.3
+            }
+            MeshLodDesc {
+                NumVertices = 180
+                NumIndices = 780
+                GeometricError = 0.050006486
+                ScreenSize = 0.12
+            }
+            MeshLodDesc {
+                NumVertices = 77
+                NumIndices = 270
+                GeometricError = 0.12001556
+                ScreenSize = 0.05
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/sandstone_slab_LOD0_2.VB"
+                Size = 67440
+            }
+            IndexData = {
+                Key = "Game://Meshes/sandstone_slab_LOD0_2.IB"
+                Size = 24000
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/sandstone_slab_LOD0_2.VB1"
+                Size = 29100
+            }
+            IndexData = {
+                Key = "Game://Meshes/sandstone_slab_LOD0_2.IB1"
+                Size = 9600
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/sandstone_slab_LOD0_2.VB2"
+                Size = 10800
+            }
+            IndexData = {
+                Key = "Game://Meshes/sandstone_slab_LOD0_2.IB2"
+                Size = 3120
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/sandstone_slab_LOD0_2.VB3"
+                Size = 4620
+            }
+            IndexData = {
+                Key = "Game://Meshes/sandstone_slab_LOD0_2.IB3"
+                Size = 1080
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/sandstone_slab_LOD0_2.BVH"
+        Size = 31834
+    }
+    Flags = None
+    UUID = "b1624cc2-b43e-44c5-8ed6-ff24d87d316e"
+}

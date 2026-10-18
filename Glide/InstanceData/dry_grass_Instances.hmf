@@ -1,0 +1,8 @@
+InstanceSetData dry_grass_Instances {
+    Records = {
+        Key = "Game://InstanceData/dry_grass_Instances.INST"
+        Size = 12528
+    }
+    NextId = 261
+    UUID = "e5d5fed8-628c-422e-b42e-25fbb01bc257"
+}

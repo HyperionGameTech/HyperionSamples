@@ -1,0 +1,173 @@
+Prefab Juniper_2 {
+    Root = {
+        UUID = "85f25d02-ee08-4b60-a955-19c56c4e5abd"
+        Name = Juniper_2
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Node Juniper {
+                UUID = "d97f1a82-334f-417a-a780-b5169aa16283"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                    Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = [
+                    Node bark {
+                        UUID = "a6ad2383-61f0-4d10-8aba-1f19800eea7b"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (0, 0, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = [
+                            Entity bark_Primitive0 {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/bark_2"
+                                        Material = @"Game://Materials/bark_2"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "8a097cad-e214-4065-972f-ad2e7350ab8d"
+                                NodeFlags = MobilityStatic
+                                LocalBounds = {
+                                    Min = (-1.1825572, -0.14532034, -1.6609901)
+                                    Max = (1.5346968, 1.2212955, 1.1060218)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                    Node leaves {
+                        UUID = "4d190862-85d9-43cd-8e65-f1a11df9bf9c"
+                        NodeFlags = MobilityStatic
+                        LocalBounds = {
+                            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+                            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+                        }
+                        LocalTransform = {
+                            Translation = (0, 0, 0)
+                            Scale = (1, 1, 1)
+                            Rotation = {
+                                X = 0
+                                Y = 0
+                                Z = 0
+                                W = 1
+                            }
+                        }
+                        Children = [
+                            Entity leaves_Primitive0 {
+                                Tags = []
+                                Components = [
+                                    MeshComponent {
+                                        Mesh = @"Game://Meshes/leaves_2"
+                                        Material = @"Game://Materials/leaves_2"
+                                        Skeleton = null
+                                        EnableAutoInstancing = false
+                                        InstanceData = null
+                                        ForcedLod = 0
+                                        LodBias = 0
+                                    }
+                                ]
+                                Layers = []
+                                UUID = "c43bd9d4-71db-4ec7-ba74-d4f2768adbe0"
+                                NodeFlags = MobilityStatic
+                                LocalBounds = {
+                                    Min = (-1.507111, 0.07055156, -1.9017205)
+                                    Max = (1.7271894, 1.523664, 1.3246613)
+                                }
+                                LocalTransform = {
+                                    Translation = (0, 0, 0)
+                                    Scale = (1, 1, 1)
+                                    Rotation = {
+                                        X = 0
+                                        Y = 0
+                                        Z = 0
+                                        W = 1
+                                    }
+                                }
+                                Children = []
+                                RotationConvention = 1
+                                NodeTags = {
+                                    Values = []
+                                }
+                            }
+                        ]
+                        RotationConvention = 1
+                        NodeTags = {
+                            Values = []
+                        }
+                    }
+                ]
+                RotationConvention = 1
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        RotationConvention = 1
+        NodeTags = {
+            Values = []
+        }
+    }
+    Revision = 0
+    UUID = "7297b222-44ea-47de-99e0-257afa22f872"
+}

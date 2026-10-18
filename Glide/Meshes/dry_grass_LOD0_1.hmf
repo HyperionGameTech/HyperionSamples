@@ -1,0 +1,109 @@
+Mesh dry_grass_LOD0_1 {
+    AABB = {
+        Min = (-1.2665427, 0, -1.1765817)
+        Max = (1.2397023, 0.80907136, 1.249327)
+    }
+    LodGeneration = {
+        NumLods = 4
+        TriangleRatios = [
+            1
+            0.5
+            0.25
+            0.125
+        ]
+        MaxRelativeError = 1
+        NormalWeight = 0.5
+        UV0Weight = 1
+        UV1Weight = 0.5
+        WindWeight = 1
+        LockBorder = false
+        Prune = false
+        MaxScreenErrorPixels = 1
+        SourceDataHash = 0
+    }
+    LightmapUVDataHash = 0
+    Lod0DataRevision = 1
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 103
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 3840
+                NumIndices = 9216
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 1152
+                NumIndices = 2304
+                GeometricError = 0.041442446
+                ScreenSize = 0.08
+            }
+            MeshLodDesc {
+                NumVertices = 308
+                NumIndices = 462
+                GeometricError = 0.094725594
+                ScreenSize = 0.035
+            }
+            MeshLodDesc {
+                NumVertices = 0
+                NumIndices = 0
+                GeometricError = 0
+                ScreenSize = 0
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/dry_grass_LOD0_1.VB"
+                Size = 245760
+            }
+            IndexData = {
+                Key = "Game://Meshes/dry_grass_LOD0_1.IB"
+                Size = 36864
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/dry_grass_LOD0_1.VB1"
+                Size = 73728
+            }
+            IndexData = {
+                Key = "Game://Meshes/dry_grass_LOD0_1.IB1"
+                Size = 9216
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/dry_grass_LOD0_1.VB2"
+                Size = 19712
+            }
+            IndexData = {
+                Key = "Game://Meshes/dry_grass_LOD0_1.IB2"
+                Size = 1848
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = ""
+                Size = 0
+            }
+            IndexData = {
+                Key = ""
+                Size = 0
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/dry_grass_LOD0_1.BVH"
+        Size = 63562
+    }
+    Flags = None
+    UUID = "796de374-354c-44e4-af7f-b2ad2f67ff95"
+}

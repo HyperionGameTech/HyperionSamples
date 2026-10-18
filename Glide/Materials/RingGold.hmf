@@ -1,0 +1,92 @@
+Material RingGold {
+    BaseMaterial = null
+    Attributes = {
+        ShaderName = GeometryPass
+        ShaderProperties = {
+            Chunks = [
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            ]
+        }
+        Bucket = Translucent
+        FillMode = Fill
+        BlendFunction = {
+            SrcColor = SrcAlpha
+            DstColor = OneMinusSrcAlpha
+            SrcAlpha = One
+            DstAlpha = Zero
+        }
+        FaceCullMode = Back
+        Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST|MAF_ALPHA_DISCARD|MAF_DISABLE_SHADOW_CASTING
+        StencilFunction = {
+            PassOp = Replace
+            FailOp = Keep
+            DepthFailOp = Keep
+            CompareOp = Always
+        }
+        DepthCompareOp = Less
+        StencilReference = 0
+        DepthBias = 0
+        DepthBiasSlope = 0
+    }
+    Parameters = {
+        NormalMapFlipY = false
+        RoughnessChannel = R
+        MetalnessChannel = R
+        AmbientOcclusionChannel = R
+        InverseHeight = false
+        Albedo = (1, 0.75686276, 0.24705882, 1)
+        Metalness = 1
+        Roughness = 0.25
+        AlphaThreshold = 0.1
+        ParallaxHeightScale = 0.02
+        Transmission = 0
+        IOR = 1.5
+        EmissiveColor = (1, 0.69803923, 0.2, 1)
+        EmissiveIntensity = 5
+        UserParams = (0, 0, 0, 0)
+        WindFrequency = 0
+        WindTrunkFlexibility = 0
+        WindTreeHeight = 0
+        WindFlutter = 0
+        FoliageNormalBlend = 0
+        FoliageBackfaceVolume = 0
+        UVScale = (1, 1)
+        Unlit = false
+        Foliage = false
+        TerrainColorMatch = false
+        Flags = 0
+        ColorVariation = 0
+        GroundNormalBlend = 0
+        BaseOcclusion = 0
+        BaseOcclusionHeight = 0
+    }
+    Textures = {
+        Values = [
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+        ]
+    }
+    IsDynamic = false
+    UUID = "9e5c8424-8885-4207-8f4b-e84bad547c47"
+}

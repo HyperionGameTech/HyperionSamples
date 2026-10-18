@@ -1,0 +1,1148 @@
+Prefab Canyon {
+    Root = {
+        UUID = "5ef84516-4fd1-447a-91dc-234a9cf758ed"
+        Name = Canyon
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Entity CanyonWalls_00 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_00"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "587430a0-9b75-4fcc-a28c-ea09069a201d"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-191.14749, -36.834, -122.757)
+                    Max = (191.14749, 36.834, 122.757)
+                }
+                LocalTransform = {
+                    Translation = (14.976494, 36.834, 61.289)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_01 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_01"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "41063881-47b0-4379-bbe9-a021ccc65f6f"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-187.844, -36.363, -126.540504)
+                    Max = (187.844, 36.363, 126.540504)
+                }
+                LocalTransform = {
+                    Translation = (70.746, 38.614, 121.2255)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_02 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_02"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "b6afcf50-dac5-4286-8aed-05f5879996cf"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-186.177, -35.262997, -102.82851)
+                    Max = (186.177, 35.263, 102.82851)
+                }
+                LocalTransform = {
+                    Translation = (112.272, 39.435997, 209.4965)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_03 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_03"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "7db2d77e-5a50-474f-bf3f-fa008542e518"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-183.83449, -32.8015, -86.733)
+                    Max = (183.8345, 32.8015, 86.733)
+                }
+                LocalTransform = {
+                    Translation = (127.00849, 38.2875, 320.491)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_04 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_04"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "f4f9a60a-171e-4d5c-b408-2f6c6c471d5d"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-179.867, -29.625004, -93.953)
+                    Max = (179.86699, 29.625, 93.953)
+                }
+                LocalTransform = {
+                    Translation = (149.174, 35.257004, 429.034)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_05 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_05"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "303c59d9-29a8-496a-8195-e9ed812df73d"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-182.217, -27.29, -102.48752)
+                    Max = (182.217, 27.289999, 102.48749)
+                }
+                LocalTransform = {
+                    Translation = (185.998, 31.733, 514.7125)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_06 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_06"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "cd8cb1ed-20c7-4c27-80cf-1d398d5a8368"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-180.54651, -26.756, -77.172)
+                    Max = (180.5465, 26.756, 77.172)
+                }
+                LocalTransform = {
+                    Translation = (211.9275, 29.362, 583.664)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_07 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_07"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "1650431e-2645-40aa-9ba4-ab3e59a7abd7"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-175.10352, -29.698, -92.31848)
+                    Max = (175.1035, 29.698, 92.31854)
+                }
+                LocalTransform = {
+                    Translation = (217.0355, 30.086, 750.36646)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_08 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_08"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "c9a2fb4e-54a2-4495-92ca-e81012198d53"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-164.46802, -33.042, -147.14496)
+                    Max = (164.468, 33.042, 147.14502)
+                }
+                LocalTransform = {
+                    Translation = (180.57701, 31.154999, 814.26196)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_09 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_09"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "491fe050-337e-4e54-9f0f-459e7d408074"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-154.35199, -34.803, -156.38501)
+                    Max = (154.352, 34.803, 156.38501)
+                }
+                LocalTransform = {
+                    Translation = (84.782, 30.917, 853.536)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_10 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_10"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "8668ec5f-84bf-411c-bebe-1f14786d7ef2"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-168.40851, -35.789, -120.26697)
+                    Max = (168.40851, 35.789, 120.26703)
+                }
+                LocalTransform = {
+                    Translation = (6.0804977, 30.472, 900.626)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_11 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_11"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "435f3c10-ec22-4b72-a61a-1a17856255a4"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-170.1155, -35.747, -96.58508)
+                    Max = (170.1155, 35.747, 96.58496)
+                }
+                LocalTransform = {
+                    Translation = (-1.2845001, 29.775002, 1037.779)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_12 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_12"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "3c9f783e-1d98-4fec-ad2e-e7d68537e74b"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-177.12451, -33.6235, -120.505005)
+                    Max = (177.12451, 33.6235, 120.505005)
+                }
+                LocalTransform = {
+                    Translation = (24.9775, 27.6235, 1144.71)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_13 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_13"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "27affdde-f710-481b-8638-f5064d816fee"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-180.99649, -30.471498, -133.53748)
+                    Max = (180.9965, 30.4715, 133.5376)
+                }
+                LocalTransform = {
+                    Translation = (89.1375, 24.717499, 1203.0864)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_14 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_14"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "5e6000b1-00db-498b-b32c-7f2b90d34320"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-186.2715, -27.838, -110.317505)
+                    Max = (186.2715, 27.838, 110.317505)
+                }
+                LocalTransform = {
+                    Translation = (131.1035, 23.143, 1278.5485)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonWalls_15 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonWalls_15"
+                        Material = @"Game://Materials/CanyonRock"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "3261e332-5682-4c19-9d26-7e41645b3297"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-187.176, -26.7575, -85.34155)
+                    Max = (187.17601, 26.7575, 85.34143)
+                }
+                LocalTransform = {
+                    Translation = (156.662, 23.807499, 1387.2585)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_00 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_00"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "f6bdaebc-5819-4f07-b10b-48e12d80751e"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-50.279, -6.667, -57.707)
+                    Max = (50.279, 6.667, 57.706997)
+                }
+                LocalTransform = {
+                    Translation = (20.132002, 5.995, 47.243)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_01 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_01"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "ad68f1b6-982d-46fc-b34e-e7a00cc1aad2"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-47.709, -6.5754995, -56.43451)
+                    Max = (47.709, 6.5755005, 56.434494)
+                }
+                LocalTransform = {
+                    Translation = (65.621, 8.1015, 130.62851)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_02 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_02"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "3b3f9dca-9271-43a1-96f8-f853588dcb0b"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-38.547997, -6.122, -54.798004)
+                    Max = (38.547997, 6.1219997, 54.798004)
+                }
+                LocalTransform = {
+                    Translation = (107.687996, 9.505, 223.108)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_03 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_03"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "9ed5ef99-7618-4423-a44a-d30dbc1cb642"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-31.935509, -6.14, -54.13748)
+                    Max = (31.935501, 6.1399994, 54.137512)
+                }
+                LocalTransform = {
+                    Translation = (130.7035, 10.924, 321.54248)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_04 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_04"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "dc223c21-afa4-4427-8273-c9e9bf73f05a"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-36.257004, -6.2694993, -54.809998)
+                    Max = (36.257004, 6.2695, 54.810028)
+                }
+                LocalTransform = {
+                    Translation = (154.899, 11.096499, 421.19598)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_05 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_05"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "735f855f-979b-4357-a559-3cbfcda3642e"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-45.431, -6.4700003, -56.35504)
+                    Max = (45.431, 6.4700003, 56.35498)
+                }
+                LocalTransform = {
+                    Translation = (187.176, 10.317, 515.53503)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_06 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_06"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "65c1b833-e091-4114-8f15-7a69adbd73a5"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-40.47151, -6.593, -54.31549)
+                    Max = (40.471497, 6.5929995, 54.31549)
+                }
+                LocalTransform = {
+                    Translation = (209.71051, 8.446, 605.3775)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_07 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_07"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "3faab2a6-17cc-4ec1-b3de-d7e7d1293b3b"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-42.7735, -6.9435, -56.17096)
+                    Max = (42.7735, 6.9435, 56.17102)
+                }
+                LocalTransform = {
+                    Translation = (207.3735, 6.6345, 715.36)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_08 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_08"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "436610bf-6324-4055-9e2a-0acb617b59eb"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-56.798004, -6.8644996, -56.458496)
+                    Max = (56.798004, 6.8645, 56.458496)
+                }
+                LocalTransform = {
+                    Translation = (165.401, 4.2334995, 794.6275)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_09 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_09"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "11f95c65-beb4-4e39-bd4a-3119e9ec1bb5"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-55.246494, -6.5405, -52.600952)
+                    Max = (55.2465, 6.5405, 52.601013)
+                }
+                LocalTransform = {
+                    Translation = (90.780495, 1.9315, 859.345)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_10 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_10"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "fe4d7da9-2a43-4a5f-939b-4e0ea2501a2f"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-45.254997, -6.4245, -53.688477)
+                    Max = (45.254997, 6.4245, 53.688538)
+                }
+                LocalTransform = {
+                    Translation = (25.071, 0.4454999, 932.90845)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_11 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_11"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "624b8065-2548-41e2-aec4-8d8935f94718"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-27.8275, -6.4945, -55.616516)
+                    Max = (27.8275, 6.4945, 55.616455)
+                }
+                LocalTransform = {
+                    Translation = (2.1025, -0.22749996, 1030.8165)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_12 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_12"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "3261cac7-1d2a-4b0f-b9ea-eadc51e2dff4"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-45.8415, -6.1635, -55.49243)
+                    Max = (45.8415, 6.1635, 55.492554)
+                }
+                LocalTransform = {
+                    Translation = (33.3545, -0.5625, 1127.3684)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_13 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_13"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "4de49143-e87f-4e57-9b0f-1bf0ab39351a"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-52.482998, -6.3065, -57.54895)
+                    Max = (52.482994, 6.3065, 57.549072)
+                }
+                LocalTransform = {
+                    Translation = (84.35, -0.15049982, 1208.907)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_14 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_14"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "c672903b-9ca3-47d0-81ee-c6a4e572ace6"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-46.334, -6.6540003, -57.82556)
+                    Max = (46.334, 6.6540003, 57.82544)
+                }
+                LocalTransform = {
+                    Translation = (126.718, 1.3529999, 1295.0605)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+            Entity CanyonFloor_15 {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/CanyonFloor_15"
+                        Material = @"Game://Materials/CanyonSand"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "09c3093d-c781-4a5f-8df4-6b1961c865f4"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-41.027992, -6.799, -55.36255)
+                    Max = (41.028, 6.7990003, 55.362427)
+                }
+                LocalTransform = {
+                    Translation = (154.471, 3.15, 1393.3506)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+    Revision = 0
+    UUID = "8ea16e29-b983-4c22-9c60-095292884d8e"
+}

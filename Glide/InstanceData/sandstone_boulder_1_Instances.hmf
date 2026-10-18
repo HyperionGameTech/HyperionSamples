@@ -1,0 +1,8 @@
+InstanceSetData sandstone_boulder_1_Instances {
+    Records = {
+        Key = "Game://InstanceData/sandstone_boulder_1_Instances.INST"
+        Size = 26832
+    }
+    NextId = 559
+    UUID = "19130a1d-cba3-4fae-821b-35a84ce66daf"
+}

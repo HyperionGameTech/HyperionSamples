@@ -1,0 +1,35 @@
+Texture leaf_albedo {
+    TextureDesc = {
+        Type = Texture2D
+        Format = RGBA8_SRGB
+        Extent = (1024, 4096, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            16777216
+            20971520
+            22020096
+            22282240
+            22347776
+            22364160
+            22368256
+            22369280
+            22369536
+            22369600
+            22369616
+            22369624
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/leaf_albedo.TEX"
+        Size = 22369628
+    }
+    UUID = "13eaeb10-633f-4ee4-ba0f-461c2c606000"
+}

@@ -1,0 +1,35 @@
+Texture sandstone_boulder_Roughness_3 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = R8
+        Extent = (1024, 1024, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            1048576
+            1310720
+            1376256
+            1392640
+            1396736
+            1397760
+            1398016
+            1398080
+            1398096
+            1398100
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/sandstone_boulder_Roughness_3.TEX"
+        Size = 1398101
+    }
+    UUID = "aa1d396b-3f8f-4eb5-bd1f-b6c74e8a693c"
+}

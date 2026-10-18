@@ -1,0 +1,92 @@
+Material sandstone_slab {
+    BaseMaterial = null
+    Attributes = {
+        ShaderName = GeometryPass
+        ShaderProperties = {
+            Chunks = [
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            ]
+        }
+        Bucket = Opaque
+        FillMode = Fill
+        BlendFunction = {
+            SrcColor = None
+            DstColor = None
+            SrcAlpha = None
+            DstAlpha = None
+        }
+        FaceCullMode = Back
+        Flags = MAF_DEPTH_WRITE|MAF_DEPTH_TEST
+        StencilFunction = {
+            PassOp = Replace
+            FailOp = Keep
+            DepthFailOp = Keep
+            CompareOp = Always
+        }
+        DepthCompareOp = Less
+        StencilReference = 0
+        DepthBias = 0
+        DepthBiasSlope = 0
+    }
+    Parameters = {
+        NormalMapFlipY = false
+        RoughnessChannel = R
+        MetalnessChannel = R
+        AmbientOcclusionChannel = R
+        InverseHeight = false
+        Albedo = (1, 1, 1, 1)
+        Metalness = 0
+        Roughness = 1
+        AlphaThreshold = 0
+        ParallaxHeightScale = 0.02
+        Transmission = 0
+        IOR = 1.5
+        EmissiveColor = (0, 0, 0, 0)
+        EmissiveIntensity = 0
+        UserParams = (0, 0, 0, 0)
+        WindFrequency = 0
+        WindTrunkFlexibility = 0
+        WindTreeHeight = 0
+        WindFlutter = 0
+        FoliageNormalBlend = 0
+        FoliageBackfaceVolume = 0
+        UVScale = (1, 1)
+        Unlit = false
+        Foliage = false
+        TerrainColorMatch = false
+        Flags = 0
+        ColorVariation = 0
+        GroundNormalBlend = 0
+        BaseOcclusion = 0
+        BaseOcclusionHeight = 0
+    }
+    Textures = {
+        Values = [
+            @"Game://Textures/rock_albedo_7"
+            @"Game://Textures/rock_normal_7"
+            null
+            null
+            @"Game://Textures/sandstone_slab_Roughness"
+            @"Game://Textures/rock_orm_7"
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+            null
+        ]
+    }
+    IsDynamic = false
+    UUID = "8680c486-2771-4a1b-956c-df6d92c62af2"
+}

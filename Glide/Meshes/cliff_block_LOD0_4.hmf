@@ -1,0 +1,109 @@
+Mesh cliff_block_LOD0_4 {
+    AABB = {
+        Min = (-14.6862755, -8.363844, -9.601092)
+        Max = (14.6862755, 8.363844, 9.601092)
+    }
+    LodGeneration = {
+        NumLods = 4
+        TriangleRatios = [
+            1
+            0.5
+            0.25
+            0.125
+        ]
+        MaxRelativeError = 1
+        NormalWeight = 0.5
+        UV0Weight = 1
+        UV1Weight = 0.5
+        WindWeight = 1
+        LockBorder = false
+        Prune = false
+        MaxScreenErrorPixels = 1
+        SourceDataHash = 0
+    }
+    LightmapUVDataHash = 0
+    Lod0DataRevision = 1
+    MeshDesc = {
+        MeshAttributes = {
+            InputLayout = {
+                Mask = 31
+            }
+            Topology = Triangles
+            IndexBufferElemType = UnsignedInt
+        }
+        Lods = [
+            MeshLodDesc {
+                NumVertices = 10425
+                NumIndices = 60000
+                GeometricError = 0
+                ScreenSize = 0
+            }
+            MeshLodDesc {
+                NumVertices = 3737
+                NumIndices = 21000
+                GeometricError = 0.11998537
+                ScreenSize = 0.3
+            }
+            MeshLodDesc {
+                NumVertices = 1243
+                NumIndices = 6600
+                GeometricError = 0.29996344
+                ScreenSize = 0.12
+            }
+            MeshLodDesc {
+                NumVertices = 431
+                NumIndices = 2100
+                GeometricError = 0.7199123
+                ScreenSize = 0.05
+            }
+        ]
+    }
+    LodData = [
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/cliff_block_LOD0_4.VB"
+                Size = 625500
+            }
+            IndexData = {
+                Key = "Game://Meshes/cliff_block_LOD0_4.IB"
+                Size = 240000
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/cliff_block_LOD0_4.VB1"
+                Size = 224220
+            }
+            IndexData = {
+                Key = "Game://Meshes/cliff_block_LOD0_4.IB1"
+                Size = 84000
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/cliff_block_LOD0_4.VB2"
+                Size = 74580
+            }
+            IndexData = {
+                Key = "Game://Meshes/cliff_block_LOD0_4.IB2"
+                Size = 26400
+            }
+        }
+        MeshLodData {
+            VertexData = {
+                Key = "Game://Meshes/cliff_block_LOD0_4.VB3"
+                Size = 25860
+            }
+            IndexData = {
+                Key = "Game://Meshes/cliff_block_LOD0_4.IB3"
+                Size = 8400
+            }
+        }
+    ]
+    BvhData = {
+        Key = "Game://Meshes/cliff_block_LOD0_4.BVH"
+        Size = 125838
+    }
+    Flags = None
+    UUID = "8e002d87-59b6-4a83-ac68-7d8b97ef5823"
+}

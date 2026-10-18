@@ -1,0 +1,35 @@
+Texture rock_albedo_21 {
+    TextureDesc = {
+        Type = Texture2D
+        Format = RGBA8_SRGB
+        Extent = (2048, 2048, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = ClampToEdge
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            16777216
+            20971520
+            22020096
+            22282240
+            22347776
+            22364160
+            22368256
+            22369280
+            22369536
+            22369600
+            22369616
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/rock_albedo_21.TEX"
+        Size = 22369620
+    }
+    UUID = "80b395f8-c3ca-4f79-9989-75437037ee34"
+}

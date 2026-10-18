@@ -1,0 +1,8 @@
+InstanceSetData Juniper_1_Instances {
+    Records = {
+        Key = "Game://InstanceData/Juniper_1_Instances.INST"
+        Size = 3312
+    }
+    NextId = 69
+    UUID = "f00be7c4-d6bf-4bed-aa24-b4be6921d072"
+}

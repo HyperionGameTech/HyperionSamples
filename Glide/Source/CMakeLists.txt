@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 3.20)
+cmake_policy(SET CMP0091 NEW)
+
+project(Glide CXX)
+
+set(HYPERION_SDK_DIR "" CACHE PATH "Sdk folder of a Hyperion editor install")
+
+if(NOT EXISTS "${HYPERION_SDK_DIR}/CMake/HyperionSdk.cmake")
+  message(FATAL_ERROR "Set HYPERION_SDK_DIR to the Sdk folder of a Hyperion editor install")
+endif()
+
+include("${HYPERION_SDK_DIR}/CMake/HyperionSdk.cmake")
+
+set(GAME_OUTPUT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../Binaries/${CMAKE_SYSTEM_NAME}" CACHE PATH "Where the game module and its launcher are built")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${GAME_OUTPUT_DIR}")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${GAME_OUTPUT_DIR}")
+
+file(GLOB_RECURSE GAME_SOURCES CONFIGURE_DEPENDS "Game/*.cpp" "Game/*.hpp")
+
+add_library(GlideGame SHARED ${GAME_SOURCES})
+target_include_directories(GlideGame PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}")
+target_link_libraries(GlideGame PRIVATE Hyperion::Engine)
+target_precompile_headers(GlideGame PRIVATE "${HYPERION_SDK_PCH}")
+
+add_executable(Glide Launcher/main.cpp)
+target_link_libraries(Glide PRIVATE Hyperion::Engine GlideGame)
+
+hyperion_copy_runtime(Glide "../../")

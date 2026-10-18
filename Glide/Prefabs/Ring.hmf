@@ -1,0 +1,63 @@
+Prefab Ring {
+    Root = {
+        UUID = "02ebd5b5-e860-4c7b-b856-4b8c898b9b08"
+        Name = Ring
+        NodeFlags = MobilityStatic
+        LocalBounds = {
+            Min = (3.4028235e+38, 3.4028235e+38, 3.4028235e+38)
+            Max = (-3.4028235e+38, -3.4028235e+38, -3.4028235e+38)
+        }
+        LocalTransform = {
+            Translation = (0, 0, 0)
+            Scale = (1, 1, 1)
+            Rotation = {
+                X = 0
+                Y = 0
+                Z = 0
+                W = 1
+            }
+        }
+        Children = [
+            Entity Ring {
+                Tags = []
+                Components = [
+                    MeshComponent {
+                        Mesh = @"Game://Meshes/Ring"
+                        Material = @"Game://Materials/RingGold"
+                        Skeleton = null
+                        EnableAutoInstancing = false
+                        InstanceData = null
+                        ForcedLod = 0
+                        LodBias = 0
+                    }
+                ]
+                Layers = []
+                UUID = "c27091e5-7129-450e-bae6-9406bebca1e3"
+                NodeFlags = MobilityStatic
+                LocalBounds = {
+                    Min = (-4.35, -4.35, -0.333)
+                    Max = (4.35, 4.35, 0.333)
+                }
+                LocalTransform = {
+                    Translation = (0, 0, 0)
+                    Scale = (1, 1, 1)
+                    Rotation = {
+                        X = 0
+                        Y = 0
+                        Z = 0
+                        W = 1
+                    }
+                }
+                Children = []
+                NodeTags = {
+                    Values = []
+                }
+            }
+        ]
+        NodeTags = {
+            Values = []
+        }
+    }
+    Revision = 0
+    UUID = "9eac6830-2e72-41a4-9d85-73b12e8949c8"
+}

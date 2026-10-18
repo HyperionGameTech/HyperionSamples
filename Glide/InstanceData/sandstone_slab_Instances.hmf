@@ -1,0 +1,8 @@
+InstanceSetData sandstone_slab_Instances {
+    Records = {
+        Key = "Game://InstanceData/sandstone_slab_Instances.INST"
+        Size = 3504
+    }
+    NextId = 73
+    UUID = "7e5c4cd8-8075-4be3-b6c9-6a8c48b0d9be"
+}
