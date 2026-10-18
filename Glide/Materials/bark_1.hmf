@@ -69,8 +69,8 @@ Material bark_1 {
     }
     Textures = {
         Values = [
-            @"Game://Textures/bark_albedo_1"
-            @"Game://Textures/bark_normal_1"
+            @"Game://Textures/bark_albedo"
+            @"Game://Textures/bark_normal"
             null
             null
             null

@@ -352,10 +352,12 @@ void GlideGame::FindLevel()
         {
             for (const Handle<Node>& ringNode : rings->GetChildren())
             {
+                const Handle<Node>& meshNode = ringNode->GetChildren().Any() ? ringNode->GetChildren()[0] : ringNode;
+
                 Ring ring;
                 ring.node = ringNode;
-                ring.center = ringNode->GetWorldTranslation();
-                ring.normal = ringNode->GetWorldRotation().RotateVector(Vec3f::UnitZ()).Normalized();
+                ring.center = meshNode->GetWorldTranslation();
+                ring.normal = meshNode->GetWorldRotation().RotateVector(Vec3f::UnitZ()).Normalized();
 
                 m_rings.PushBack(std::move(ring));
             }

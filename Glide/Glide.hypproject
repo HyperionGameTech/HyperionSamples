@@ -1,8 +1,8 @@
 EditorProject Glide {
     GameInstance = GlideGame {}
 
-    EditorCameraPosition = (0, 0, 0)
-    EditorCameraDirection = (0, 0, 1)
+    EditorCameraPosition = (119.78017, 36.35157, 276.35608)
+    EditorCameraDirection = (0.26198778, -0.07816865, 0.96190023)
     EditWorldName = MainWorld
     PlatformSettings = {
         Web = {

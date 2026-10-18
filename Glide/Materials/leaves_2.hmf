@@ -69,11 +69,11 @@ Material leaves_2 {
     }
     Textures = {
         Values = [
-            @"Game://Textures/leaf_albedo_2"
+            @"Game://Textures/leaf_albedo"
             null
             null
             null
-            @"Game://Textures/leaves_Roughness_2"
+            @"Game://Textures/leaves_Roughness"
             null
             null
             null
