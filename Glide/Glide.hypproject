@@ -1,12 +1,11 @@
 EditorProject Glide {
     GameInstance = GlideGame {}
 
-    EditorCameraPosition = (119.78017, 36.35157, 276.35608)
-    EditorCameraDirection = (0.26198778, -0.07816865, 0.96190023)
+    EditorCameraPosition = (59.934772, 31.535702, 107.97966)
+    EditorCameraDirection = (0.22829683, -0.12302162, 0.9657878)
     EditWorldName = MainWorld
     PlatformSettings = {
         Web = {
-            MaxTextureSize = 256
             Worlds = ""
         }
         Cook = {
@@ -84,5 +83,47 @@ EditorProject Glide {
                 }
             ]
         }
+    }
+    PackagingSettings = {
+        Defaults = {
+            Content = {
+                MaxTextureSize = 0
+            }
+        }
+        PlatformOverrides = [
+            PackagingPlatformOverride {
+                Platform = Web
+                Options = {
+                    Content = {
+                        MaxTextureSize = 256
+                    }
+                }
+                OverriddenFields = [
+                    "Content.MaxTextureSize"
+                ]
+            }
+            PackagingPlatformOverride {
+                Platform = IOS
+                Options = {
+                    Content = {
+                        MaxTextureSize = 512
+                    }
+                }
+                OverriddenFields = [
+                    "Content.MaxTextureSize"
+                ]
+            }
+            PackagingPlatformOverride {
+                Platform = Android
+                Options = {
+                    Content = {
+                        MaxTextureSize = 512
+                    }
+                }
+                OverriddenFields = [
+                    "Content.MaxTextureSize"
+                ]
+            }
+        ]
     }
 }

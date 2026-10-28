@@ -1,0 +1,11 @@
+BoneMask UpperBodyMask {
+    DefaultWeight = 0
+    Entries = [
+        BoneMaskEntry {
+            BoneName = spine_01
+            Weight = 1
+            IncludeDescendants = true
+        }
+    ]
+    UUID = "dd0911b7-85a6-4883-a919-07aafea31126"
+}

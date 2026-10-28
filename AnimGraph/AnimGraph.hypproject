@@ -1,0 +1,67 @@
+EditorProject AnimGraph {
+    GameInstance = {}
+
+    ContentSubfolder = "Content"
+    EditorCameraPosition = (6.916731, 3.0036836, -2.1399164)
+    EditorCameraDirection = (-0.73450446, -0.09201701, 0.6723363)
+    EditWorldName = MainWorld
+    ProjectSettings = {
+        GameTitle = ""
+        ModuleName = "AnimGraph"
+        NetSettings = {
+            SinglePlayer = true
+            Multiplayer = false
+            ServerHost = ""
+            ServerPort = 0
+        }
+        PlatformSettings = {
+            Web = {
+                Worlds = ""
+            }
+            Cook = {}
+
+        }
+    }
+    PackagingSettings = {
+        Defaults = {
+            Content = {
+                MaxTextureSize = 0
+            }
+        }
+        PlatformOverrides = [
+            PackagingPlatformOverride {
+                Platform = Web
+                Options = {
+                    Content = {
+                        MaxTextureSize = 256
+                    }
+                }
+                OverriddenFields = [
+                    "Content.MaxTextureSize"
+                ]
+            }
+            PackagingPlatformOverride {
+                Platform = IOS
+                Options = {
+                    Content = {
+                        MaxTextureSize = 512
+                    }
+                }
+                OverriddenFields = [
+                    "Content.MaxTextureSize"
+                ]
+            }
+            PackagingPlatformOverride {
+                Platform = Android
+                Options = {
+                    Content = {
+                        MaxTextureSize = 512
+                    }
+                }
+                OverriddenFields = [
+                    "Content.MaxTextureSize"
+                ]
+            }
+        ]
+    }
+}

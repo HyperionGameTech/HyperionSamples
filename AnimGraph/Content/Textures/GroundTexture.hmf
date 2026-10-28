@@ -1,0 +1,35 @@
+Texture GroundTexture {
+    TextureDesc = {
+        Type = Texture2D
+        Format = RGBA8_SRGB
+        Extent = (64, 64, 1)
+        MinFilterMode = LinearMipmap
+        MagFilterMode = Linear
+        TextureWrapMode = Repeat
+        NumLayers = 1
+        ImageUsage = Sampled
+        MipOffsets = [
+            16384
+            20480
+            21504
+            21760
+            21824
+            21840
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+        ]
+    }
+    ImageData = {
+        Key = "Game://Textures/GroundTexture.TEX"
+        Size = 21844
+    }
+    UUID = "2b93d0f3-c08b-419f-8571-134f92d2dc06"
+}

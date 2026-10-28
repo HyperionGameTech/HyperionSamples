@@ -1,0 +1,279 @@
+AnimationGraph NpcGraph {
+    RootNode = 13
+    TargetSkeleton = @"Engine://Skeletons/BaseHumanRig"
+    Nodes = [
+        AnimationClipNode Idle {
+            Clip = @"Engine://Animations/Idle"
+            PlayRate = 1
+            Loop = true
+            StartOffset = 0
+            TimeParameter = ""
+            SyncGroup = ""
+            SyncLeader = false
+            SpeedParameter = ""
+            ReferenceSpeed = 1
+            NormalizedTime = false
+            EditorPosition = (0, 0)
+        }
+        AnimationClipNode Walk {
+            Clip = @"Engine://Animations/Walk"
+            PlayRate = 1
+            Loop = true
+            StartOffset = 0
+            TimeParameter = ""
+            SyncGroup = Locomotion
+            SyncLeader = false
+            SpeedParameter = Speed
+            ReferenceSpeed = 1.02
+            NormalizedTime = false
+            EditorPosition = (0, 80)
+        }
+        AnimationClipNode Jog {
+            Clip = @"Engine://Animations/Jog"
+            PlayRate = 1
+            Loop = true
+            StartOffset = 0
+            TimeParameter = ""
+            SyncGroup = Locomotion
+            SyncLeader = false
+            SpeedParameter = Speed
+            ReferenceSpeed = 4.5
+            NormalizedTime = false
+            EditorPosition = (0, 160)
+        }
+        AnimationClipNode Run {
+            Clip = @"Engine://Animations/Run"
+            PlayRate = 1
+            Loop = true
+            StartOffset = 0
+            TimeParameter = ""
+            SyncGroup = Locomotion
+            SyncLeader = false
+            SpeedParameter = Speed
+            ReferenceSpeed = 8.6
+            NormalizedTime = false
+            EditorPosition = (0, 240)
+        }
+        AnimationBlend1DNode Locomotion {
+            Parameter = Speed
+            Samples = [
+                AnimationBlendSample {
+                    Input = 0
+                    Position = (0, 0)
+                }
+                AnimationBlendSample {
+                    Input = 1
+                    Position = (1.02, 0)
+                }
+                AnimationBlendSample {
+                    Input = 2
+                    Position = (4.5, 0)
+                }
+                AnimationBlendSample {
+                    Input = 3
+                    Position = (8.6, 0)
+                }
+            ]
+            Smooth = true
+            EditorPosition = (280, 120)
+        }
+        AnimationClipNode CrouchIdle {
+            Clip = @"Engine://Animations/CrouchIdle"
+            PlayRate = 1
+            Loop = true
+            StartOffset = 0
+            TimeParameter = ""
+            SyncGroup = ""
+            SyncLeader = false
+            SpeedParameter = ""
+            ReferenceSpeed = 1
+            NormalizedTime = false
+            EditorPosition = (0, 360)
+        }
+        AnimationClipNode CrouchWalk {
+            Clip = @"Engine://Animations/CrouchWalk"
+            PlayRate = 1
+            Loop = true
+            StartOffset = 0
+            TimeParameter = ""
+            SyncGroup = ""
+            SyncLeader = false
+            SpeedParameter = Speed
+            ReferenceSpeed = 1
+            NormalizedTime = false
+            EditorPosition = (0, 440)
+        }
+        AnimationBlend1DNode Crouch {
+            Parameter = Speed
+            Samples = [
+                AnimationBlendSample {
+                    Input = 5
+                    Position = (0, 0)
+                }
+                AnimationBlendSample {
+                    Input = 6
+                    Position = (1, 0)
+                }
+            ]
+            Smooth = true
+            EditorPosition = (280, 400)
+        }
+        AnimationClipNode Death {
+            Clip = @"Engine://Animations/Death"
+            PlayRate = 1
+            Loop = false
+            StartOffset = 0
+            TimeParameter = ""
+            SyncGroup = ""
+            SyncLeader = false
+            SpeedParameter = ""
+            ReferenceSpeed = 1
+            NormalizedTime = false
+            EditorPosition = (280, 540)
+        }
+        AnimationStateMachineNode Stance {
+            States = [
+                AnimationState Standing {
+                    Input = 4
+                    EditorPosition = (0, 0)
+                }
+                AnimationState Crouching {
+                    Input = 7
+                    EditorPosition = (300, 0)
+                }
+                AnimationState Dead {
+                    Input = 8
+                    EditorPosition = (150, 180)
+                }
+            ]
+            Transitions = [
+                AnimationStateTransition {
+                    From = 0
+                    FromAnyState = false
+                    To = 1
+                    Conditions = [
+                        AnimationTransitionCondition {
+                            Parameter = Crouched
+                            Op = IsTrue
+                            Value = 0
+                        }
+                    ]
+                    Duration = 0.3
+                    Curve = SmoothStep
+                    Priority = 0
+                    Interruptible = true
+                    Mode = Crossfade
+                }
+                AnimationStateTransition {
+                    From = 1
+                    FromAnyState = false
+                    To = 0
+                    Conditions = [
+                        AnimationTransitionCondition {
+                            Parameter = Crouched
+                            Op = IsFalse
+                            Value = 0
+                        }
+                    ]
+                    Duration = 0.3
+                    Curve = SmoothStep
+                    Priority = 0
+                    Interruptible = true
+                    Mode = Crossfade
+                }
+                AnimationStateTransition {
+                    From = 0
+                    FromAnyState = true
+                    To = 2
+                    Conditions = [
+                        AnimationTransitionCondition {
+                            Parameter = Die
+                            Op = Triggered
+                            Value = 0
+                        }
+                    ]
+                    Duration = 0.2
+                    Curve = SmoothStep
+                    Priority = 1
+                    Interruptible = false
+                    Mode = Crossfade
+                }
+                AnimationStateTransition {
+                    From = 2
+                    FromAnyState = false
+                    To = 0
+                    Conditions = [
+                        AnimationTransitionCondition {
+                            Parameter = Revive
+                            Op = Triggered
+                            Value = 0
+                        }
+                    ]
+                    Duration = 0.6
+                    Curve = SmoothStep
+                    Priority = 0
+                    Interruptible = false
+                    Mode = Crossfade
+                }
+            ]
+            EntryState = 0
+            EditorPosition = (560, 300)
+        }
+        AnimationClipNode AimPose {
+            Clip = @"Engine://Animations/PistolAimNeutral"
+            PlayRate = 1
+            Loop = true
+            StartOffset = 0
+            TimeParameter = ""
+            SyncGroup = ""
+            SyncLeader = false
+            SpeedParameter = ""
+            ReferenceSpeed = 1
+            NormalizedTime = false
+            EditorPosition = (560, 480)
+        }
+        AnimationLayerNode Aim {
+            Base = 9
+            Layer = 10
+            Mask = @"Game://Animations/UpperBodyMask"
+            Weight = 1
+            WeightParameter = Aiming
+            EditorPosition = (820, 360)
+        }
+        AnimationSlotNode Action {
+            Slot = Action
+            Base = 11
+            Mask = null
+            EditorPosition = (1060, 360)
+        }
+        AnimationSlotNode UpperBody {
+            Slot = UpperBody
+            Base = 12
+            Mask = @"Game://Animations/UpperBodyMask"
+            EditorPosition = (1300, 360)
+        }
+    ]
+    Parameters = [
+        AnimationGraphParameter Speed {
+            Type = Float
+            DefaultValue = (0, 0)
+        }
+        AnimationGraphParameter Crouched {
+            Type = Bool
+            DefaultValue = (0, 0)
+        }
+        AnimationGraphParameter Aiming {
+            Type = Float
+            DefaultValue = (0, 0)
+        }
+        AnimationGraphParameter Die {
+            Type = Trigger
+            DefaultValue = (0, 0)
+        }
+        AnimationGraphParameter Revive {
+            Type = Trigger
+            DefaultValue = (0, 0)
+        }
+    ]
+    UUID = "533772a2-6f17-4457-afb4-2446c26e28b5"
+}

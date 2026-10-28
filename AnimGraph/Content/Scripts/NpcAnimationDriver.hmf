@@ -1,0 +1,14 @@
+ScriptAsset NpcAnimationDriver {
+    ScriptDesc = {
+        Path = "Scripts\\NpcAnimationDriver.cs"
+        AssemblyPath = "HyperionSamples.AnimGraph.Content.Scripts.dll"
+        ClassName = "NpcAnimationDriver"
+        UUID = "a59b17e4-9efe-48cb-9d88-5143ae61b4c3"
+        Language = CSharp
+    }
+    Data = {
+        Key = ""
+        Size = 0
+    }
+    UUID = "7659ea8c-9ddd-4772-b813-ef288942ab50"
+}

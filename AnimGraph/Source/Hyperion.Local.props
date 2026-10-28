@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <HyperionBinDir>C:/Users/andre/Dev/HyperionEngine/Binaries/Windows/Release/</HyperionBinDir>
+    <HyperionBaseDir>C:/Users/andre/Dev/HyperionEngine/</HyperionBaseDir>
+    <HyperionSdkDir>C:/Users/andre/Dev/HyperionEngine/Source/Engine/DotNET/Sdk/</HyperionSdkDir>
+  </PropertyGroup>
+</Project>

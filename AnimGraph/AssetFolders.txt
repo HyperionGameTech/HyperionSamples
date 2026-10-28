@@ -1,0 +1,12 @@
+[Folders]
+[Assets]
+Animations/NpcGraph	
+Animations/UpperBodyMask	
+Materials/GroundMaterial	
+Meshes/GroundMesh	
+PhysicsShapes/GroundPhysicsShape	
+PhysicsShapes/PlayerCapsuleShape_1	
+Scenes/MainScene	
+Scripts/NpcAnimationDriver	
+Textures/GroundTexture	
+Worlds/MainWorld	
