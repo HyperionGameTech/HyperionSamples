@@ -2,8 +2,8 @@ EditorProject AnimGraph {
     GameInstance = {}
 
     ContentSubfolder = "Content"
-    EditorCameraPosition = (6.916731, 3.0036836, -2.1399164)
-    EditorCameraDirection = (-0.73450446, -0.09201701, 0.6723363)
+    EditorCameraPosition = (3.4375765, 1.7801727, -2.6109455)
+    EditorCameraDirection = (-0.51819646, 0.002878869, 0.85525674)
     EditWorldName = MainWorld
     ProjectSettings = {
         GameTitle = ""
@@ -21,6 +21,11 @@ EditorProject AnimGraph {
             Cook = {}
 
         }
+        Plugins = [
+            AnimToolkit
+            MCPBridge
+            PluginTest
+        ]
     }
     PackagingSettings = {
         Defaults = {
