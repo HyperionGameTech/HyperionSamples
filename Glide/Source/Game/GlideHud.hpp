@@ -45,6 +45,7 @@ public:
 
     void SetFlightStats(const FlightStats& stats);
     void SetInvertVertical(bool invertVertical);
+    void SetTouchControls();
 
     void ShowPopup(const String& text, const Color& color);
     void Flash(const Color& tint);
@@ -87,6 +88,7 @@ private:
     float m_popupTime = 0.0f;
 
     Handle<UIPanel> m_titleScreen;
+    Array<Handle<UIText>> m_controlKeys;
     Handle<UIText> m_invertText;
 
     Handle<UIPanel> m_crashScreen;

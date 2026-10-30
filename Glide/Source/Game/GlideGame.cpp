@@ -16,6 +16,8 @@
 
 #include <Input/Event.hpp>
 
+#include <System/AppContext.hpp>
+
 #include <UI/UISubsystem.hpp>
 #include <UI/UIStage.hpp>
 
@@ -74,6 +76,9 @@ constexpr float YawResponse = 3.0f;
 constexpr float PitchResponse = 2.5f;
 constexpr float RollResponse = 3.0f;
 constexpr float Ceiling = 78.0f;
+
+// share of the screen's short side a finger drags for a full turn or climb
+constexpr float TouchDragRange = 0.12f;
 
 constexpr float WingSpan = 2.0f;
 constexpr float RockMargin = 0.3f;
@@ -158,11 +163,11 @@ Handle<Material> CreateUnlitMaterial(Name name, const Vec4f& color, bool additiv
     {
         attributes.bucket = RenderBucket::Translucent;
         attributes.blendFunction = BlendFunction::Additive();
-        attributes.flags = MAF_DEPTH_TEST | MAF_DISABLE_SHADOW_CASTING;
+        attributes.flags = MaterialAttributeFlags::DepthTest | MaterialAttributeFlags::DisableShadowCasting;
     }
     else
     {
-        attributes.flags = MAF_DEPTH_WRITE | MAF_DEPTH_TEST | MAF_DISABLE_SHADOW_CASTING;
+        attributes.flags = MaterialAttributeFlags::DepthWrite | MaterialAttributeFlags::DepthTest | MaterialAttributeFlags::DisableShadowCasting;
     }
 
     Handle<Material> material = MakeHandle<Material>(name, attributes);
@@ -252,6 +257,11 @@ void GlideGame::OnLaunch()
     {
         m_hud.Create(*m_uiSubsystem->GetUIStage());
         m_hud.SetInvertVertical(m_invertVertical);
+
+#if defined(HYP_ANDROID) || defined(HYP_IOS)
+        m_touchControls = true;
+        m_hud.SetTouchControls();
+#endif
     }
 
     if (!m_paperPlane.Create(m_plane.Get()))
@@ -636,6 +646,13 @@ void GlideGame::OnUpdate(float delta)
 
 bool GlideGame::OnInputEvent(const Event& event)
 {
+    if (event.GetType() == EventType::TOUCH_DOWN || event.GetType() == EventType::TOUCH_MOVE || event.GetType() == EventType::TOUCH_UP)
+    {
+        HandleTouch(event);
+
+        return Game::OnInputEvent(event);
+    }
+
     const bool isKeyEvent = event.GetType() == EventType::KEYDOWN || event.GetType() == EventType::KEYUP;
 
     if (!isKeyEvent)
@@ -668,14 +685,7 @@ bool GlideGame::OnInputEvent(const Event& event)
             break;
 
         case KeyCode::KEY_SPACE:
-            if (m_state == RunState::Ready)
-            {
-                StartFlying();
-            }
-            else if (m_state != RunState::Flying && m_stateTime > RetryDelay)
-            {
-                ResetRun();
-            }
+            PressStart();
             break;
 
         default:
@@ -684,6 +694,72 @@ bool GlideGame::OnInputEvent(const Event& event)
     }
 
     return Game::OnInputEvent(event);
+}
+
+void GlideGame::PressStart()
+{
+    if (m_state == RunState::Ready)
+    {
+        StartFlying();
+    }
+    else if (m_state != RunState::Flying && m_stateTime > RetryDelay)
+    {
+        ResetRun();
+    }
+}
+
+void GlideGame::HandleTouch(const Event& event)
+{
+    const TouchEvent touch = event.ToTouchEvent();
+
+    if (!m_touchControls)
+    {
+        m_touchControls = true;
+        m_hud.SetTouchControls();
+    }
+
+    switch (event.GetType())
+    {
+    case EventType::TOUCH_DOWN:
+        if (m_steerPointer < 0)
+        {
+            m_steerPointer = touch.pointerId;
+            m_steerAnchor = touch.position;
+            m_steerDrag = Vec2f::Zero();
+
+            PressStart();
+        }
+        else if (m_boostPointer < 0)
+        {
+            m_boostPointer = touch.pointerId;
+        }
+        break;
+
+    case EventType::TOUCH_MOVE:
+        if (touch.pointerId == m_steerPointer && event.GetWindow() != nullptr)
+        {
+            const Vec2i size = event.GetWindow()->GetSize();
+            const float range = float(MathUtil::Max(MathUtil::Min(size.x, size.y), 1)) * TouchDragRange;
+
+            m_steerDrag = (touch.position - m_steerAnchor) / range;
+        }
+        break;
+
+    case EventType::TOUCH_UP:
+        if (touch.pointerId == m_steerPointer)
+        {
+            m_steerPointer = -1;
+            m_steerDrag = Vec2f::Zero();
+        }
+        else if (touch.pointerId == m_boostPointer)
+        {
+            m_boostPointer = -1;
+        }
+        break;
+
+    default:
+        break;
+    }
 }
 
 void GlideGame::ToggleAutopilot()
@@ -735,7 +811,7 @@ void GlideGame::UpdateFlight(float delta)
     m_pitch = Ease(m_pitch, targetPitch, PitchResponse, delta);
     m_roll = Ease(m_roll, m_yawRate * BankAmount, RollResponse, delta);
 
-    const bool boostHeld = IsKeyDown(KeyCode::KEY_LSHIFT) || IsKeyDown(KeyCode::KEY_RSHIFT);
+    const bool boostHeld = IsKeyDown(KeyCode::KEY_LSHIFT) || IsKeyDown(KeyCode::KEY_RSHIFT) || m_boostPointer >= 0;
 
     m_superBoostTime = MathUtil::Max(m_superBoostTime - delta, 0.0f);
     m_boosting = boostHeld && m_boostMeter > 0.0f && m_superBoostTime <= 0.0f;
@@ -796,6 +872,10 @@ void GlideGame::ReadInput(float& outSteer, float& outClimb) const
 
     outSteer = float(right) - float(left);
     outClimb = float(up) - float(down);
+
+    // screen y points down, so dragging up climbs like W
+    outSteer = MathUtil::Clamp(outSteer + m_steerDrag.x, -1.0f, 1.0f);
+    outClimb = MathUtil::Clamp(outClimb - m_steerDrag.y, -1.0f, 1.0f);
 
     if (m_invertVertical)
     {

@@ -254,6 +254,7 @@ void GlideHud::CreateTitleScreen()
     {
         Handle<UIText> keysText = AddText(m_titleScreen, NAME("Keys"), Vec2i(-14, y), keys, ControlSize, Colors::Gold, Align::CENTER);
         keysText->SetOriginAlignment(Align::TOP_RIGHT);
+        m_controlKeys.PushBack(keysText);
 
         Handle<UIText> actionText = AddText(m_titleScreen, NAME("Action"), Vec2i(14, y), action, ControlSize, Colors::Sand, Align::CENTER);
         actionText->SetOriginAlignment(Align::TOP_LEFT);
@@ -406,6 +407,34 @@ void GlideHud::SetFlightStats(const FlightStats& stats)
 void GlideHud::SetInvertVertical(bool invertVertical)
 {
     SetText(m_invertText, invertVertical ? "Invert vertical: On" : "Invert vertical: Off");
+}
+
+void GlideHud::SetTouchControls()
+{
+    static const char* const touchKeys[] = { "DRAG LEFT / RIGHT", "DRAG UP / DOWN", "SECOND FINGER" };
+    static const char* const touchPrompts[] = { "TAP TO FLY", "TAP TO RETRY", "TAP TO FLY AGAIN" };
+
+    for (size_t i = 0; i < m_controlKeys.Size(); i++)
+    {
+        if (i < std::size(touchKeys))
+        {
+            SetText(m_controlKeys[i], touchKeys[i]);
+        }
+        else
+        {
+            m_controlKeys[i]->SetIsVisible(false);
+        }
+    }
+
+    if (m_invertText.IsValid())
+    {
+        m_invertText->SetIsVisible(false);
+    }
+
+    for (size_t i = 0; i < m_prompts.Size() && i < std::size(touchPrompts); i++)
+    {
+        SetText(m_prompts[i], touchPrompts[i]);
+    }
 }
 
 void GlideHud::ShowPopup(const String& text, const Color& color)

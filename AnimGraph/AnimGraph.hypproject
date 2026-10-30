@@ -2,8 +2,8 @@ EditorProject AnimGraph {
     GameInstance = {}
 
     ContentSubfolder = "Content"
-    EditorCameraPosition = (3.4375765, 1.7801727, -2.6109455)
-    EditorCameraDirection = (-0.51819646, 0.002878869, 0.85525674)
+    EditorCameraPosition = (6.6573467, 2.8180745, -0.9952115)
+    EditorCameraDirection = (-0.97563994, -0.20387606, -0.081002116)
     EditWorldName = MainWorld
     ProjectSettings = {
         GameTitle = ""
@@ -21,6 +21,7 @@ EditorProject AnimGraph {
             Cook = {}
 
         }
+        CompressImportedTextures = true
         Plugins = [
             AnimToolkit
             MCPBridge

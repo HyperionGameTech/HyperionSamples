@@ -4,6 +4,7 @@
 
 #include <Input/Keyboard.hpp>
 
+#include <Core/Math/Vector2.hpp>
 #include <Core/Math/Vector3.hpp>
 #include <Core/Math/Quat4f.hpp>
 
@@ -102,6 +103,9 @@ private:
     void RespawnWindStreak(WindStreak& streak, float minAhead);
     void UpdatePickups();
 
+    void PressStart();
+    void HandleTouch(const Event& event);
+
     void ToggleAutopilot();
     void ToggleInvertVertical();
 
@@ -169,6 +173,12 @@ private:
     bool m_invertVertical = false;
 
     bool m_keysDown[256] = {};
+
+    bool m_touchControls = false;
+    int32 m_steerPointer = -1;
+    int32 m_boostPointer = -1;
+    Vec2f m_steerAnchor;
+    Vec2f m_steerDrag;
     uint32 m_random = 0x9e3779b9u;
 
     Array<Pair<String, String>> m_cvarsToRestore;
